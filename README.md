@@ -17,7 +17,7 @@ I build autonomous agents, industrial-grade AI control planes, and decentralized
 
 ### 💻 Fullstack & Data
 * **[Cavapendolandia](../cavapendolandia):** A minimalistic, Supabase-powered art platform built with Vite, React, and TypeScript.
-* **MUD Escola de Cerâmica (`MUD`):** A trilingual web experience built for a ceramics school.
+* **[MUD Escola de Cerâmica](https://mudescoladeceramica.com) (`MUD`):** A trilingual web experience built for a ceramics school.
 * **AutoScout24 Scraper:** A robust Python data pipeline for extracting and analyzing European used car markets.
 * **SecurePath Academy:** A comprehensive educational platform with full Playwright test coverage.
 
