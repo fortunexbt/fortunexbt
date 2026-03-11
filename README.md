@@ -77,13 +77,13 @@ I like building software that is:
 - **[BarterTrade](https://github.com/fortunexbt/barter)** — Modern barter + commodity platform  
   Built around secure identity and zero-knowledge-flavored verification ideas.
 
-- **TCE12 SecurePath** — Solidity systems for verifiable coordination
+- **[TCE12 x SecurePath](https://tce12.lovable.app)** — Solidity systems for verifiable coordination
 
 - **Crypto Seed Scout / SecurePath** — Research automation and signal compression for crypto opportunities
 
 ### Full-Stack & Data
 
-- **S[ecurePath Academy](https://securepath.club/)** — Educational platform with strong Playwright coverage
+- **[SecurePath Academy](https://securepath.club/)** — Educational platform with strong Playwright coverage
 - **[MUD Escola de Cerâmica](https://mudescoladeceramica.com)** — Trilingual product surface
 - **[Cavapendolandia](https://cavapendo.land/)** — Minimalist art platform
 - **AutoScout24 Scraper** — European used-car intelligence pipeline
