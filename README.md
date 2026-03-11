@@ -151,7 +151,7 @@ I like building software that is:
   <a href="https://fortunexbt.com">website</a> ·
   <a href="https://github.com/fortunexbt">github</a> ·
   <a href="mailto:fortunexbt@proton.me">email</a> ·
-  <a href="https://x.com/FortuneXBT">x</a>
+  <a href="https://x.com/FortuneXBT">x</a> ·
   <a href="https://t.me/fortunexbt">tg</a>
 </p>
 
