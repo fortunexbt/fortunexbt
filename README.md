@@ -63,7 +63,7 @@ I like building software that is:
 - **[MUTX](https://github.com/fortunexbt/mutx-dev)** — The industrial control plane for AI agents  
   Deploy, run, observe, and govern AI agents as resilient services.
 
-- **ForgeElf** — Autonomous economic agent on Base  
+- **[Cipher](https://x.com/0x_cipherbot)** — My personal autonomous agent  
   Oracle-aware, onchain, and built around programmable economic behavior.
 
 - **[OpenClaw](https://github.com/fortunexbt/openclaw)** — Experimental fork / systems sandbox  
