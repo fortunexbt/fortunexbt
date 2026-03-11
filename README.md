@@ -79,8 +79,6 @@ I like building software that is:
 
 - **[TCE12 x SecurePath](https://tce12.lovable.app)** — Solidity systems for verifiable coordination
 
-- **Crypto Seed Scout / SecurePath** — Research automation and signal compression for crypto opportunities
-
 ### Full-Stack & Data
 
 - **[SecurePath Academy](https://securepath.club/)** — Educational platform with strong Playwright coverage
