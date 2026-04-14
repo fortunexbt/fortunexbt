@@ -6,7 +6,7 @@ Building [MUTX](https://mutx.dev) — the control plane for AI agents.
 
 ## What I'm Working On
 
-### [MUTX](https://github.com/fortunexbt/mutx-dev) · Open Source
+### [MUTX](https://github.com/fortunexbt/mutx-dev) · Source-Available
 The operational layer for autonomous agents: deploy, run, observe, and govern them like production infrastructure.
 
 ### [Cipher](https://x.com/0x_cipherbot) · Autonomous Agent
