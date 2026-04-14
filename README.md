@@ -1,4 +1,4 @@
-# Fortune
+# Fortune aka Mario
 
 Building [MUTX](https://mutx.dev) — the control plane for AI agents.
 
