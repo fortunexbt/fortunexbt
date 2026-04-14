@@ -36,4 +36,4 @@ Python · TypeScript · Solidity · React · Docker · Bash
 
 ## Contact
 
-[mutx.dev](https://mutx.dev) · [X](https://x.com/FortuneXBT) · [telegram](https://t.me/fortunexbt) · [fortunexbt@proton.me](mailto:fortunexbt@proton.me)
+[mutx.dev](https://mutx.dev) · [X](https://x.com/FortuneXBT) · [telegram](https://t.me/fortunexbt) · [mario@mutx.dev](mailto:mario@mutx.dev)
