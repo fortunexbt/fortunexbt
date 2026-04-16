@@ -12,9 +12,6 @@ The operational layer for autonomous agents: deploy, run, observe, and govern th
 ### [Cipher](https://x.com/0x_cipherbot) · Autonomous Agent
 Oracle-aware, onchain, programmable economic behavior. Self-directing.
 
-### [SecurePath](https://securepath.club) · Founder
-Self-custody-first staking and liquidity strategies. Cross-chain portfolio oversight — EVM, SVM, IBC, HyperEVM. LLM-assisted governance and treasury research.
-
 ---
 
 ## Other Projects
