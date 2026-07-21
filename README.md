@@ -33,11 +33,11 @@ The common thread is simple. A useful system should make its state visible, pres
 
 ## Night-shift launches
 
-Three orphaned prototypes, rebuilt into public proof:
+Four orphaned prototypes, rebuilt into public proof:
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://fortunexbt.github.io/solar-drift/">
         <img src="https://raw.githubusercontent.com/fortunexbt/solar-drift/main/public/gameplay-preview.webp" alt="Solar Drift warm retro-futurist Snake roguelite" width="100%" />
       </a>
@@ -46,16 +46,7 @@ Three orphaned prototypes, rebuilt into public proof:
       <p><code>LIVE</code> <code>13 TESTS</code> <code>ZERO NETWORK</code></p>
       <p><a href="https://fortunexbt.github.io/solar-drift/"><strong>PLAY</strong></a> · <a href="https://github.com/fortunexbt/solar-drift"><strong>CODE</strong></a></p>
     </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/fortunexbt/switchyard">
-        <img src="https://raw.githubusercontent.com/fortunexbt/switchyard/main/assets/switchyard-console.png" alt="Switchyard local operator console and visible stop boundary" width="100%" />
-      </a>
-      <h3>Switchyard</h3>
-      <p>A local-first operator console with a visible policy gate, stoppable execution, deterministic evidence, and body-free receipts.</p>
-      <p><code>OFFLINE PROOF</code> <code>13 TESTS</code> <code>AUDITED</code></p>
-      <p><a href="https://github.com/fortunexbt/switchyard"><strong>RUN / CODE / BOUNDARIES</strong></a></p>
-    </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://fortunexbt.github.io/loop-courier/">
         <img src="https://raw.githubusercontent.com/fortunexbt/loop-courier/main/assets/loop-courier-showcase.png" alt="Loop Courier seeded transit route after a successful delivery" width="100%" />
       </a>
@@ -65,9 +56,29 @@ Three orphaned prototypes, rebuilt into public proof:
       <p><a href="https://fortunexbt.github.io/loop-courier/"><strong>PLAY</strong></a> · <a href="https://github.com/fortunexbt/loop-courier"><strong>CODE</strong></a></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fortunexbt/switchyard">
+        <img src="https://raw.githubusercontent.com/fortunexbt/switchyard/main/assets/switchyard-console.png" alt="Switchyard local operator console and visible stop boundary" width="100%" />
+      </a>
+      <h3>Switchyard</h3>
+      <p>A local-first operator console with a visible policy gate, stoppable execution, deterministic evidence, and body-free receipts.</p>
+      <p><code>OFFLINE PROOF</code> <code>13 TESTS</code> <code>AUDITED</code></p>
+      <p><a href="https://github.com/fortunexbt/switchyard"><strong>RUN / CODE / BOUNDARIES</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fortunexbt/queueglass">
+        <img src="https://raw.githubusercontent.com/fortunexbt/queueglass/main/docs/queueglass.png" alt="Queueglass seeded discrete-event queue topology" width="100%" />
+      </a>
+      <h3>Queueglass</h3>
+      <p>A seeded discrete-event lab for queue pressure, stage capacity, retries, and recovery—with every unit visibly synthetic.</p>
+      <p><code>SIMULATED</code> <code>LOCAL</code> <code>REPLAYABLE</code></p>
+      <p><a href="https://github.com/fortunexbt/queueglass"><strong>RUN / CODE / INVARIANTS</strong></a></p>
+    </td>
+  </tr>
 </table>
 
-The same revival pass turned two older prototypes into honest evidence labs: **[Barter v2](https://github.com/fortunexbt/barter/releases/tag/v2.0.0)** replays three deterministic trade protocols with no database or external writes, while **[SecurePath v0.2](https://github.com/fortunexbt/securepath/releases/tag/v0.2.0)** produces a stable offline evidence packet across 35 tests.
+The same revival pass turned three more prototypes into honest evidence labs: **[Barter v2](https://github.com/fortunexbt/barter/releases/tag/v2.0.0)** replays deterministic trade protocols with no external writes; **[SecurePath v0.2](https://github.com/fortunexbt/securepath/releases/tag/v0.2.0)** produces a stable offline evidence packet across 35 tests; and **[Ambient Relay v1](https://github.com/fortunexbt/ambient-relay/releases/tag/v1.0.0)** routes synthetic Discord events through explicit policy without contacting Discord or sending a message.
 
 ## Choose a system
 
