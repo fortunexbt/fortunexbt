@@ -10,6 +10,8 @@
     <a href="https://github.com/fortunexbt/tablebeam">ASK TABLEBEAM</a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/fortunexbt/ckitty">SUMMON CKITTY</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://fortunexbt.github.io/solar-drift/">PLAY SOLAR DRIFT</a>
   </p>
 </div>
 
@@ -28,6 +30,44 @@ The common thread is simple. A useful system should make its state visible, pres
 `5 releases` &nbsp; `signed macOS app` &nbsp; `API + SDK + CLI + TUI` &nbsp; `auditable runs`
 
 **[Try it](https://mutx.dev)** · **[Read the code](https://github.com/mutx-dev/mutx-dev)** · **[Open the docs](https://docs.mutx.dev)** · **[Download for macOS](https://mutx.dev/download/macos)**
+
+## Night-shift launches
+
+Three orphaned prototypes, rebuilt into public proof:
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://fortunexbt.github.io/solar-drift/">
+        <img src="https://raw.githubusercontent.com/fortunexbt/solar-drift/main/public/gameplay-preview.webp" alt="Solar Drift warm retro-futurist Snake roguelite" width="100%" />
+      </a>
+      <h3>Solar Drift</h3>
+      <p>A zero-network Snake roguelite with daily seeds, three run profiles, modular builds, local progression, and procedural WebAudio.</p>
+      <p><code>LIVE</code> <code>13 TESTS</code> <code>ZERO NETWORK</code></p>
+      <p><a href="https://fortunexbt.github.io/solar-drift/"><strong>PLAY</strong></a> · <a href="https://github.com/fortunexbt/solar-drift"><strong>CODE</strong></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/fortunexbt/switchyard">
+        <img src="https://raw.githubusercontent.com/fortunexbt/switchyard/main/assets/switchyard-console.png" alt="Switchyard local operator console and visible stop boundary" width="100%" />
+      </a>
+      <h3>Switchyard</h3>
+      <p>A local-first operator console with a visible policy gate, stoppable execution, deterministic evidence, and body-free receipts.</p>
+      <p><code>OFFLINE PROOF</code> <code>13 TESTS</code> <code>AUDITED</code></p>
+      <p><a href="https://github.com/fortunexbt/switchyard"><strong>RUN / CODE / BOUNDARIES</strong></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://fortunexbt.github.io/loop-courier/">
+        <img src="https://raw.githubusercontent.com/fortunexbt/loop-courier/main/assets/loop-courier-showcase.png" alt="Loop Courier seeded transit route after a successful delivery" width="100%" />
+      </a>
+      <h3>Loop Courier</h3>
+      <p>A seeded routing game where one closed loop, expiring deliveries, hazards, and three graph splices decide the run.</p>
+      <p><code>LIVE</code> <code>SEEDED</code> <code>BROWSER-TESTED</code></p>
+      <p><a href="https://fortunexbt.github.io/loop-courier/"><strong>PLAY</strong></a> · <a href="https://github.com/fortunexbt/loop-courier"><strong>CODE</strong></a></p>
+    </td>
+  </tr>
+</table>
+
+The same revival pass turned two older prototypes into honest evidence labs: **[Barter v2](https://github.com/fortunexbt/barter/releases/tag/v2.0.0)** replays three deterministic trade protocols with no database or external writes, while **[SecurePath v0.2](https://github.com/fortunexbt/securepath/releases/tag/v0.2.0)** produces a stable offline evidence packet across 35 tests.
 
 ## Choose a system
 
