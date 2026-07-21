@@ -78,7 +78,7 @@ Four orphaned prototypes, rebuilt into public proof:
   </tr>
 </table>
 
-The same revival pass turned three more prototypes into honest evidence labs: **[Barter v2](https://github.com/fortunexbt/barter/releases/tag/v2.0.0)** replays deterministic trade protocols with no external writes; **[SecurePath v0.2](https://github.com/fortunexbt/securepath/releases/tag/v0.2.0)** produces a stable offline evidence packet across 35 tests; and **[Ambient Relay v1](https://github.com/fortunexbt/ambient-relay/releases/tag/v1.0.0)** routes synthetic Discord events through explicit policy without contacting Discord or sending a message.
+The same revival pass turned two more prototypes into honest evidence labs: **[Barter v2](https://github.com/fortunexbt/barter/releases/tag/v2.0.0)** replays deterministic trade protocols with no external writes, and **[Ambient Relay v1](https://github.com/fortunexbt/ambient-relay/releases/tag/v1.0.0)** routes synthetic Discord events through explicit policy without contacting Discord or sending a message.
 
 ## Choose a system
 
