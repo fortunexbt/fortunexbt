@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="./assets/control-room.png" alt="A machine observatory where four systems feed a visible audit trail into deep space" width="100%" />
   <h1>Mario / Fortune</h1>
   <p><strong>Control planes for machines. Tiny worlds for humans. Every system shows its work.</strong></p>
   <p>
