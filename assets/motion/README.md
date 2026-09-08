@@ -1,5 +1,7 @@
 # Keeping the profile demos current
 
+The current refresh (8 September 2026) includes the local Odyssey and ckitty builds, the latest public Tablebeam banner, and refreshed public snapshots for BoundaryBench, Queueglass and Switchyard. The website recordings were also captured again from the live public pages.
+
 The profile links to the repositories for current builds. These GIFs are snapshots of actual project demos, terminal output or public websites. They are not release or production-status claims.
 
 Keep each project's filename stable when replacing a clip. The README layout can then stay intact as projects change. If a new build changes the purpose or availability of a feature, update its caption and link too.
