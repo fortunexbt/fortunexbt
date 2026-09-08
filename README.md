@@ -2,17 +2,9 @@
 
 I build agent infrastructure, research tools, websites and games. Here's the work in motion.
 
-[Website](https://fortunexbt.com) &nbsp; / &nbsp; [All repositories](https://github.com/fortunexbt?tab=repositories) &nbsp; / &nbsp; [Say hello](https://t.me/fortunexbt)
-
 [Agents](#agent-infrastructure) · [Games](#games--terminal-experiments) · [Tools](#data-questions--experiments) · [Websites](#websites-people-use) · [About](#behind-the-builds)
 
 <sub>These clips include demos and work in progress. Open a repository for the latest build.</sub>
-
-## Latest demo: BoundaryBench
-
-<a href="https://fortunexbt.github.io/boundary-bench/"><img src="./assets/boundary-bench-frontend.png" width="800" alt="BoundaryBench frontend showing paired agent-control scenarios, scorecards and a verified trace inspector" /></a>
-
-Try the live [GitHub Pages demo](https://fortunexbt.github.io/boundary-bench/) or read the [source repository](https://github.com/fortunexbt/boundary-bench). It is an offline, deterministic fixture pack: a browser-visible proof of the evaluator and evidence dashboard, not a production security certification.
 
 ## Agent infrastructure
 
