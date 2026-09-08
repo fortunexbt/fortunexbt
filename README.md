@@ -20,57 +20,33 @@ I build the tools around the agents: APIs, interfaces and developer tools for se
 
 ## Games & terminal experiments
 
-<h3><a href="https://github.com/fortunexbt/solar-drift">Solar Drift</a></h3>
-<p>Circle the suns. Cross your wake. Collect the light.</p>
-<a href="https://github.com/fortunexbt/solar-drift"><img src="./assets/motion/solar-drift.gif" width="800" alt="Solar Drift ship closing an orbit and collecting a sun" /></a>
-<p><a href="https://github.com/fortunexbt/solar-drift/pull/3">Orbital build preview ↗</a> · <a href="https://fortunexbt.github.io/solar-drift/">Published game ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/loop-courier">Loop Courier</a></h3>
-<p>Draw one route through a city of pickups, deadlines and awkward detours.</p>
-<a href="https://github.com/fortunexbt/loop-courier"><img src="./assets/motion/games/loop-courier.gif" width="800" alt="Loop Courier route collecting and delivering a parcel" /></a>
-<p><a href="https://fortunexbt.github.io/loop-courier/">Play ↗</a> · <a href="https://github.com/fortunexbt/loop-courier">Code &amp; builds ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/terminal-starfield">Terminal Starfield</a></h3>
-<p>The updated Odyssey build: projected space combat, route choices and flagship encounters, rendered entirely in the terminal.</p>
-<a href="https://github.com/fortunexbt/terminal-starfield"><img src="./assets/motion/games/terminal-starfield.gif" width="800" alt="Terminal Starfield animated space combat" /></a>
-<p><a href="https://github.com/fortunexbt/terminal-starfield">Code &amp; builds ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/ckitty">ckitty</a></h3>
-<p>A small terminal companion, written in C and animated through the current procedural pose renderer.</p>
-<a href="https://github.com/fortunexbt/ckitty"><img src="./assets/motion/games/ckitty.gif" width="800" alt="A procedural terminal cat changing poses" /></a>
-<p><a href="https://github.com/fortunexbt/ckitty">Code &amp; builds ↗</a></p>
+<table>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/solar-drift">Solar Drift</a></h3><p>Circle the suns. Cross your wake. Collect the light.</p><a href="https://github.com/fortunexbt/solar-drift"><img src="./assets/motion/solar-drift.gif" width="100%" alt="Solar Drift ship closing an orbit and collecting a sun" /></a><p><a href="https://github.com/fortunexbt/solar-drift/pull/3">Orbital build ↗</a> · <a href="https://fortunexbt.github.io/solar-drift/">Published game ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/loop-courier">Loop Courier</a></h3><p>Draw one route through a city of pickups, deadlines and awkward detours.</p><a href="https://github.com/fortunexbt/loop-courier"><img src="./assets/motion/games/loop-courier.gif" width="100%" alt="Loop Courier route collecting and delivering a parcel" /></a><p><a href="https://fortunexbt.github.io/loop-courier/">Play ↗</a> · <a href="https://github.com/fortunexbt/loop-courier">Code ↗</a></p></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/terminal-starfield">Terminal Starfield</a></h3><p>The updated Odyssey build: projected space combat, route choices and flagship encounters.</p><a href="https://github.com/fortunexbt/terminal-starfield"><img src="./assets/motion/games/terminal-starfield.gif" width="100%" alt="Terminal Starfield Odyssey flight deck and flagship worlds" /></a><p><a href="https://github.com/fortunexbt/terminal-starfield">Code ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/ckitty">ckitty</a></h3><p>A small terminal companion, written in C and animated through the current procedural pose renderer.</p><a href="https://github.com/fortunexbt/ckitty"><img src="./assets/motion/games/ckitty.gif" width="100%" alt="A procedural terminal cat changing poses" /></a><p><a href="https://github.com/fortunexbt/ckitty">Code ↗</a></p></td>
+  </tr>
+</table>
 
 ## Data, questions & experiments
 
-<h3><a href="https://github.com/fortunexbt/tablebeam">Tablebeam</a></h3>
-<p>Tablebeam’s current visual language: local-model questions, source rows and a clear data surface.</p>
-<a href="https://github.com/fortunexbt/tablebeam"><img src="./assets/motion/tools/tablebeam.gif" width="800" alt="Current Tablebeam project interface and local data workflow" /></a>
-<p><a href="https://github.com/fortunexbt/tablebeam">Code &amp; builds ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3>
-<p>Test where an agent should stop—and where permitted work should continue. Synthetic demo.</p>
-<a href="https://github.com/fortunexbt/boundary-bench"><img src="./assets/motion/tools/boundary-bench.gif" width="800" alt="BoundaryBench exploring synthetic agent-control test fixtures" /></a>
-<p><a href="https://github.com/fortunexbt/boundary-bench">Code &amp; builds ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/queueglass">Queueglass</a></h3>
-<p>A simulated queue lab for exploring pressure, capacity, retries and recovery.</p>
-<a href="https://github.com/fortunexbt/queueglass"><img src="./assets/motion/tools/queueglass.gif" width="800" alt="Queueglass showing a simulated queue as its load changes" /></a>
-<p><a href="https://github.com/fortunexbt/queueglass">Code &amp; builds ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/switchyard">Switchyard</a></h3>
-<p>A local operator console with visible policy gates, stoppable runs and a record of what happened.</p>
-<a href="https://github.com/fortunexbt/switchyard"><img src="./assets/motion/tools/switchyard.gif" width="800" alt="Switchyard local console showing an execution policy gate" /></a>
-<p><a href="https://github.com/fortunexbt/switchyard">Code &amp; builds ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/barter">Barter</a></h3>
-<p>A trade-protocol lab with replayable state and an explicit simulation ledger.</p>
-<a href="https://github.com/fortunexbt/barter"><img src="./assets/motion/tools/barter.gif" width="800" alt="Barter replaying a simulated trade protocol" /></a>
-<p><a href="https://github.com/fortunexbt/barter">Code &amp; builds ↗</a></p>
-
-<h3><a href="https://github.com/fortunexbt/ambient-relay">Ambient Relay</a></h3>
-<p>Synthetic Discord events, explicit policy and inspectable outcomes. An offline automation lab.</p>
-<a href="https://github.com/fortunexbt/ambient-relay"><img src="./assets/motion/tools/ambient-relay.gif" width="800" alt="Ambient Relay processing synthetic events through policy checks" /></a>
-<p><a href="https://github.com/fortunexbt/ambient-relay">Code &amp; builds ↗</a></p>
+<table>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/tablebeam">Tablebeam</a></h3><p>Tablebeam’s current visual language: local-model questions, source rows and a clear data surface.</p><a href="https://github.com/fortunexbt/tablebeam"><img src="./assets/motion/tools/tablebeam.gif" width="100%" alt="Current Tablebeam project interface and local data workflow" /></a><p><a href="https://github.com/fortunexbt/tablebeam">Code ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3><p>Test where an agent should stop—and where permitted work should continue. Synthetic demo.</p><a href="https://github.com/fortunexbt/boundary-bench"><img src="./assets/motion/tools/boundary-bench.gif" width="100%" alt="BoundaryBench exploring synthetic agent-control test fixtures" /></a><p><a href="https://github.com/fortunexbt/boundary-bench">Code ↗</a></p></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/queueglass">Queueglass</a></h3><p>A simulated queue lab for exploring pressure, capacity, retries and recovery.</p><a href="https://github.com/fortunexbt/queueglass"><img src="./assets/motion/tools/queueglass.gif" width="100%" alt="Queueglass showing a simulated queue as its load changes" /></a><p><a href="https://github.com/fortunexbt/queueglass">Code ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/switchyard">Switchyard</a></h3><p>A local operator console with visible policy gates, stoppable runs and a record of what happened.</p><a href="https://github.com/fortunexbt/switchyard"><img src="./assets/motion/tools/switchyard.gif" width="100%" alt="Switchyard local console showing an execution policy gate" /></a><p><a href="https://github.com/fortunexbt/switchyard">Code ↗</a></p></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/barter">Barter</a></h3><p>A trade-protocol lab with replayable state and an explicit simulation ledger.</p><a href="https://github.com/fortunexbt/barter"><img src="./assets/motion/tools/barter.gif" width="100%" alt="Barter replaying a simulated trade protocol" /></a><p><a href="https://github.com/fortunexbt/barter">Code ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/ambient-relay">Ambient Relay</a></h3><p>Synthetic Discord events, explicit policy and inspectable outcomes. An offline automation lab.</p><a href="https://github.com/fortunexbt/ambient-relay"><img src="./assets/motion/tools/ambient-relay.gif" width="100%" alt="Ambient Relay processing synthetic events through policy checks" /></a><p><a href="https://github.com/fortunexbt/ambient-relay">Code ↗</a></p></td>
+  </tr>
+</table>
 
 ## Websites people use
 
