@@ -43,8 +43,8 @@ I build the tools around the agents: APIs, interfaces and developer tools for se
 ## Data, questions & experiments
 
 <h3><a href="https://github.com/fortunexbt/tablebeam">Tablebeam</a></h3>
-<p>A local-model table tool. This clip explores sample data and its profile.</p>
-<a href="https://github.com/fortunexbt/tablebeam"><img src="./assets/motion/tools/tablebeam.gif" width="800" alt="Tablebeam exploring a sample table and its data profile" /></a>
+<p>Tablebeam’s current visual language: local-model questions, source rows and a clear data surface.</p>
+<a href="https://github.com/fortunexbt/tablebeam"><img src="./assets/motion/tools/tablebeam.gif" width="800" alt="Current Tablebeam project interface and local data workflow" /></a>
 <p><a href="https://github.com/fortunexbt/tablebeam">Code &amp; builds ↗</a></p>
 
 <h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3>
