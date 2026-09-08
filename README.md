@@ -1,157 +1,60 @@
-<div align="center">
-  <h1>Mario / Fortune</h1>
-  <p><strong>Control planes for machines. Tiny worlds for humans. Every system shows its work.</strong></p>
-  <p>
-    <a href="https://mutx.dev">RUN MUTX</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/fortunexbt/terminal-starfield">PLAY STARFIELD</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/fortunexbt/tablebeam">ASK TABLEBEAM</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/fortunexbt/ckitty">SUMMON CKITTY</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://fortunexbt.github.io/solar-drift/">PLAY SOLAR DRIFT</a>
-  </p>
-</div>
+<img align="right" src="./assets/mario.jpg" width="136" alt="Mario Barbantini Scanni, smiling" />
 
-I build systems that have to survive contact with reality: bounded AI agents, local-first tools, inspectable market infrastructure, and deterministic terminal experiments.
+# Hello, I'm Mario.
 
-The common thread is simple. A useful system should make its state visible, preserve a trail, and let a human understand what happened after the demo ends.
+**Usually Fortune online.**
 
-## Now shipping: [MUTX](https://github.com/mutx-dev/mutx-dev)
+I build websites and useful tools — for local businesses, difficult research questions, and people working with AI. I like making the complicated part easier to use.
 
-**The control plane around the agent.** MUTX gives operators one surface for identity, runs, permissions, budgets, approvals, observability, and audit history.
+[Website](https://fortunexbt.com) &nbsp; / &nbsp; [MUTX](https://github.com/mutx-dev/mutx-dev) &nbsp; / &nbsp; [Say hello](https://t.me/fortunexbt)
 
-<a href="https://mutx.dev">
-  <img src="https://raw.githubusercontent.com/mutx-dev/mutx-dev/main/public/demo.gif" alt="MUTX operator dashboard showing an agent run" width="100%" />
-</a>
+<br clear="right" />
 
-`5 releases` &nbsp; `signed macOS app` &nbsp; `API + SDK + CLI + TUI` &nbsp; `auditable runs`
+## Work, up close
 
-**[Try it](https://mutx.dev)** · **[Read the code](https://github.com/mutx-dev/mutx-dev)** · **[Open the docs](https://docs.mutx.dev)** · **[Download for macOS](https://mutx.dev/download/macos)**
+**[MUTX](https://github.com/mutx-dev/mutx-dev)** · Tools around AI agents. I work on the API, dashboard, CLI and SDK so people can see what their agents are doing, set limits and step in. A human approval becomes a saved record, with a life beyond the chat. [Docs ↗](https://docs.mutx.dev/) · [Upstream credits ↗](https://github.com/mutx-dev/mutx-dev/blob/main/CREDITS.md)
 
-## Night-shift launches
-
-Four orphaned prototypes, rebuilt into public proof:
+**[Tablebeam](https://github.com/fortunexbt/tablebeam)** · Questions about a spreadsheet, with the source rows beside the answer. A separate search chooses the rows; a local model writes the response. Exact totals and joins stay with a dataframe or SQL.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://fortunexbt.github.io/solar-drift/">
-        <img src="https://raw.githubusercontent.com/fortunexbt/solar-drift/main/public/gameplay-preview.webp" alt="Solar Drift warm retro-futurist Snake roguelite" width="100%" />
-      </a>
-      <h3>Solar Drift</h3>
-      <p>A zero-network Snake roguelite with daily seeds, three run profiles, modular builds, local progression, and procedural WebAudio.</p>
-      <p><code>LIVE</code> <code>13 TESTS</code> <code>ZERO NETWORK</code></p>
-      <p><a href="https://fortunexbt.github.io/solar-drift/"><strong>PLAY</strong></a> · <a href="https://github.com/fortunexbt/solar-drift"><strong>CODE</strong></a></p>
+      <a href="https://www.bottegapriori.com/"><img src="./assets/bottega.webp" width="100%" alt="Bottega Dei Priori's restaurant website, with its food photography and booking link" /></a>
+      <h3><a href="https://www.bottegapriori.com/">Bottega Dei Priori ↗</a></h3>
+      <p>Bilingual menus and direct booking conversations.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://fortunexbt.github.io/loop-courier/">
-        <img src="https://raw.githubusercontent.com/fortunexbt/loop-courier/main/assets/loop-courier-showcase.png" alt="Loop Courier seeded transit route after a successful delivery" width="100%" />
-      </a>
-      <h3>Loop Courier</h3>
-      <p>A seeded routing game where one closed loop, expiring deliveries, hazards, and three graph splices decide the run.</p>
-      <p><code>LIVE</code> <code>SEEDED</code> <code>BROWSER-TESTED</code></p>
-      <p><a href="https://fortunexbt.github.io/loop-courier/"><strong>PLAY</strong></a> · <a href="https://github.com/fortunexbt/loop-courier"><strong>CODE</strong></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/fortunexbt/switchyard">
-        <img src="https://raw.githubusercontent.com/fortunexbt/switchyard/main/assets/switchyard-console.png" alt="Switchyard local operator console and visible stop boundary" width="100%" />
-      </a>
-      <h3>Switchyard</h3>
-      <p>A local-first operator console with a visible policy gate, stoppable execution, deterministic evidence, and body-free receipts.</p>
-      <p><code>OFFLINE PROOF</code> <code>13 TESTS</code> <code>AUDITED</code></p>
-      <p><a href="https://github.com/fortunexbt/switchyard"><strong>RUN / CODE / BOUNDARIES</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/fortunexbt/queueglass">
-        <img src="https://raw.githubusercontent.com/fortunexbt/queueglass/main/docs/queueglass.png" alt="Queueglass seeded discrete-event queue topology" width="100%" />
-      </a>
-      <h3>Queueglass</h3>
-      <p>A seeded discrete-event lab for queue pressure, stage capacity, retries, and recovery—with every unit visibly synthetic.</p>
-      <p><code>SIMULATED</code> <code>LOCAL</code> <code>REPLAYABLE</code></p>
-      <p><a href="https://github.com/fortunexbt/queueglass"><strong>RUN / CODE / INVARIANTS</strong></a></p>
+      <a href="https://mudescoladeceramica.com/pt"><img src="./assets/mud.webp" width="100%" alt="MUD's ceramics school website showing its studio and weekly classes" /></a>
+      <h3><a href="https://mudescoladeceramica.com/pt">MUD ↗</a></h3>
+      <p>A ceramics studio and its weekly class finder.</p>
     </td>
   </tr>
 </table>
 
-The same revival pass turned two more prototypes into honest evidence labs: **[Barter v2](https://github.com/fortunexbt/barter/releases/tag/v2.0.0)** replays deterministic trade protocols with no external writes, and **[Ambient Relay v1](https://github.com/fortunexbt/ambient-relay/releases/tag/v1.0.0)** routes synthetic Discord events through explicit policy without contacting Discord or sending a message.
+<sub>Both websites are shared work with Walberth Soares through <a href="https://civicodue.eu/">Civico Due</a>. Images show the real public websites.</sub>
 
-## Choose a system
+## A game for your next break
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/fortunexbt/terminal-starfield">
-        <img src="https://raw.githubusercontent.com/fortunexbt/terminal-starfield/main/docs/rogue-combat.gif" alt="Starfield Rogue boss combat in a terminal" width="100%" />
-      </a>
-      <h3>Terminal Starfield</h3>
-      <p>A zero-dependency deep-space combat roguelite with seeded runs, machine-readable state, exact-width rendering, and a tested 15-wave campaign.</p>
-      <p><code>PYTHON</code> <code>DETERMINISTIC</code> <code>RELEASED</code></p>
-      <p><a href="https://github.com/fortunexbt/terminal-starfield"><strong>PLAY / CODE / PROOF</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/fortunexbt/ckitty">
-        <img src="https://raw.githubusercontent.com/fortunexbt/ckitty/main/assets/ckitty-demo.gif" alt="An animated procedural terminal cat" width="100%" />
-      </a>
-      <h3>ckitty</h3>
-      <p>A tiny native terminal cat in C11 and ncurses. Procedural poses, deterministic frames, resize-safe animation, sanitizers, and no runtime baggage.</p>
-      <p><code>C11</code> <code>NATIVE</code> <code>SEEDED</code></p>
-      <p><a href="https://github.com/fortunexbt/ckitty"><strong>INSTALL / CODE / PROOF</strong></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/fortunexbt/tablebeam">
-        <img src="https://raw.githubusercontent.com/fortunexbt/tablebeam/main/assets/tablebeam-banner.jpg" alt="Tablebeam local table question answering" width="100%" />
-      </a>
-      <h3>Tablebeam</h3>
-      <p>Private-by-default Q&amp;A for CSV and Google Sheets. It runs against local models and points every answer back to the source rows.</p>
-      <p><code>LOCAL AI</code> <code>TRACEABLE</code> <code>DOCKER</code></p>
-      <p><a href="https://github.com/fortunexbt/tablebeam"><strong>RUN / CODE / PROOF</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/fortunexbt/docs">
-        <img src="./assets/control-room.png" alt="Fortune Field Manual machine observatory" width="100%" />
-      </a>
-      <h3>Fortune Field Manual</h3>
-      <p>Architecture tours, demo recipes, tradeoffs, and build receipts for the systems in this workshop. The depth layer behind the demos.</p>
-      <p><code>ARCHITECTURE</code> <code>DECISIONS</code> <code>FIELD NOTES</code></p>
-      <p><a href="https://github.com/fortunexbt/docs"><strong>OPEN THE MANUAL</strong></a></p>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/fortunexbt/solar-drift/tree/fortune/orbital-lasso"><img src="./assets/solar-drift.webp" width="100%" alt="The new Solar Drift: a luminous ship trail looping around golden suns in a dark orbital field" /></a>
 
-## Four operating principles
+**[Solar Drift](https://github.com/fortunexbt/solar-drift/tree/fortune/orbital-lasso)** · I'm rebuilding it around one rule: circle the suns, then cross your own wake to collect them. Wide orbits can catch more light; red bodies make the route interesting. Keyboard, pointer and touch, with sound made in the browser.
 
-| Principle | What it means here | Proof in the workshop |
-|---|---|---|
-| **Bounded** | Authority, budgets, and approvals are explicit. | MUTX policy and run controls |
-| **Local** | Your data can stay on your machine. | Tablebeam and private research workbenches |
-| **Deterministic** | Important state can be replayed and tested. | Starfield seeds, ckitty frames, fixture-driven tools |
-| **Verifiable** | Claims have receipts, sources, or an audit trail. | MUTX events, cited table rows, release checks |
+<sub>The orbital redesign is on its review branch. <a href="https://fortunexbt.github.io/solar-drift/">The published game</a> currently runs the earlier version.</sub>
 
-## Selected private systems
+More small experiments: [Terminal Starfield](https://github.com/fortunexbt/terminal-starfield) · [ckitty](https://github.com/fortunexbt/ckitty) · [Loop Courier](https://github.com/fortunexbt/loop-courier).
 
-I also build local RNA review tooling, cross-border settlement and governance infrastructure, autonomous market-research agents, and multilingual client products. The repositories stay private; the architecture, boundaries, and lessons surface in the [Field Manual](https://github.com/fortunexbt/docs).
+## Behind the work
 
-## Working set
+I studied politics and international relations at Cardiff University and have worked in crypto research and governance. That interest in how people make decisions runs through the software I build.
 
-**Languages** — Python, TypeScript, Solidity, C, SQL, Bash<br>
-**Product** — FastAPI, React, Next.js, PostgreSQL, Redis, Docker<br>
-**Infrastructure** — Terraform, Ansible, Helm, CI/CD, observability<br>
-**Human languages** — English, Italian, Spanish, Portuguese; basic German
+I use AI throughout development. I choose what to build, check the output, integrate the pieces and review the result. The decisions and delivery are my responsibility.
 
-If you are building agent infrastructure, local-first AI, or economically serious onchain systems, [talk to me](mailto:mario@mutx.dev).
+Usually Python and TypeScript, often React / Next.js, FastAPI, SQL and Docker. Small terminal projects give me a reason to write C. The task decides the tools.
 
-<p align="center">
-  <a href="https://mutx.dev">mutx.dev</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://x.com/FortuneXBT">X</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://t.me/fortunexbt">Telegram</a>
-  &nbsp;&middot;&nbsp;
-  <a href="mailto:mario@mutx.dev">Email</a>
-</p>
+[BoundaryBench](https://github.com/fortunexbt/boundary-bench) explores how AI agents handle boundaries and permitted work. The [Field Manual](https://github.com/fortunexbt/docs) has longer project notes. You can also follow my submitted contributions to [Hermes Agent](https://github.com/NousResearch/hermes-agent/pull/65575) and [Open Design](https://github.com/nexu-io/open-design/pull/6427).
+
+---
+
+Tell me about the business, the idea, or the thing you're tired of doing by hand.
+
+[Work & contact](https://fortunexbt.com) &nbsp; / &nbsp; [Telegram](https://t.me/fortunexbt) &nbsp; / &nbsp; [X](https://x.com/fortunexbt) &nbsp; / &nbsp; [Writing](https://fortunexbt.substack.com/)
