@@ -70,6 +70,26 @@ I use AI throughout development. I choose what to build, check the output, integ
 
 More in the [Field Manual](https://github.com/fortunexbt/docs). My submitted contributions include [Hermes Agent](https://github.com/NousResearch/hermes-agent/pull/65575) and [Open Design](https://github.com/nexu-io/open-design/pull/6427).
 
+<details>
+<summary>All public repositories</summary>
+
+<table>
+  <tr><td><a href="https://github.com/fortunexbt/ambient-relay">ambient-relay</a></td><td>Offline Discord automation with explicit live gates.</td><td><a href="https://github.com/fortunexbt/ambient-relay">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/barter">barter</a></td><td>Replayable commodity-exchange protocol lab.</td><td><a href="https://github.com/fortunexbt/barter">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/boundary-bench">boundary-bench</a></td><td>Crash tests for agent control planes.</td><td><a href="https://github.com/fortunexbt/boundary-bench">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/ckitty">ckitty</a></td><td>Native C11 terminal companion.</td><td><a href="https://github.com/fortunexbt/ckitty">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/docs">docs</a></td><td>Architecture tours and reproducible release evidence.</td><td><a href="https://github.com/fortunexbt/docs">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/loop-courier">loop-courier</a></td><td>Seeded route-drawing courier game.</td><td><a href="https://github.com/fortunexbt/loop-courier">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/queueglass">queueglass</a></td><td>Replayable queue pressure and recovery lab.</td><td><a href="https://github.com/fortunexbt/queueglass">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/securepath">securepath</a></td><td>Offline-first evidence replay and provenance.</td><td><a href="https://github.com/fortunexbt/securepath">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/solar-drift">solar-drift</a></td><td>Retro-futurist browser Snake roguelite.</td><td><a href="https://github.com/fortunexbt/solar-drift">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/switchyard">switchyard</a></td><td>Local operator console with visible policy gates.</td><td><a href="https://github.com/fortunexbt/switchyard">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/tablebeam">tablebeam</a></td><td>Transparent local-model CSV and Sheets Q&amp;A.</td><td><a href="https://github.com/fortunexbt/tablebeam">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/terminal-starfield">terminal-starfield</a></td><td>Zero-dependency terminal combat roguelite.</td><td><a href="https://github.com/fortunexbt/terminal-starfield">↗</a></td></tr>
+  <tr><td><a href="https://github.com/fortunexbt/fortunexbt">fortunexbt</a></td><td>This profile, its gallery and provenance ledger.</td><td><a href="https://github.com/fortunexbt/fortunexbt">↗</a></td></tr>
+</table>
+</details>
+
 ---
 
 [Work & contact](https://fortunexbt.com) &nbsp; / &nbsp; [Telegram](https://t.me/fortunexbt) &nbsp; / &nbsp; [X](https://x.com/fortunexbt) &nbsp; / &nbsp; [Writing](https://fortunexbt.substack.com/)
