@@ -31,12 +31,12 @@ I build the tools around the agents: APIs, interfaces and developer tools for se
 <p><a href="https://fortunexbt.github.io/loop-courier/">Play ↗</a> · <a href="https://github.com/fortunexbt/loop-courier">Code &amp; builds ↗</a></p>
 
 <h3><a href="https://github.com/fortunexbt/terminal-starfield">Terminal Starfield</a></h3>
-<p>A space-combat roguelite rendered entirely in the terminal.</p>
+<p>The updated Odyssey build: projected space combat, route choices and flagship encounters, rendered entirely in the terminal.</p>
 <a href="https://github.com/fortunexbt/terminal-starfield"><img src="./assets/motion/games/terminal-starfield.gif" width="800" alt="Terminal Starfield animated space combat" /></a>
 <p><a href="https://github.com/fortunexbt/terminal-starfield">Code &amp; builds ↗</a></p>
 
 <h3><a href="https://github.com/fortunexbt/ckitty">ckitty</a></h3>
-<p>A small terminal companion, written in C and animated through procedural poses.</p>
+<p>A small terminal companion, written in C and animated through the current procedural pose renderer.</p>
 <a href="https://github.com/fortunexbt/ckitty"><img src="./assets/motion/games/ckitty.gif" width="800" alt="A procedural terminal cat changing poses" /></a>
 <p><a href="https://github.com/fortunexbt/ckitty">Code &amp; builds ↗</a></p>
 
