@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-08T13:27:36.039Z",
+  "purpose": "Real public-site motion previews for the Fortune GitHub profile.",
+  "scope": "Only assets/motion/websites was written; public sites and project checkouts were observed without changes.",
+  "files": [
+    {
+      "file": "bottega-priori.gif",
+      "sourceUrl": "https://www.bottegapriori.com/",
+      "resolvedUrl": "https://www.bottegapriori.com/",
+      "sourceTitle": "Bottega Dei Priori | Trattoria a Perugia",
+      "capturedAt": "2026-09-08T13:19:11.016Z",
+      "sourceState": "Current public website observed on capture date; no new release or deployment is implied.",
+      "sharedProjectCredit": "Shared work with Walberth Soares through Civico Due (https://civicodue.eu/).",
+      "capture": {
+        "browser": "Google Chrome 152.0.7977.76",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "deviceScaleFactor": 1,
+        "method": "Lossless screenshots from an independent Playwright browser during real wheel input; no DOM, content, or style changes.",
+        "action": "Homepage food hero, then wheel-scroll 800 CSS pixels into La sala e la tavola and the restaurant photo grid.",
+        "sourceFrameCount": 80,
+        "sourceCaptureWallMs": 25064
+      },
+      "export": {
+        "width": 600,
+        "height": 400,
+        "durationSeconds": 5.84,
+        "frames": 23,
+        "bytes": 1955423,
+        "sha256": "50792a7657568d42f950ebd8e93a28cd64d25796888cfc4dc250a29fd00dfba8",
+        "loop": "infinite",
+        "cadence": "Approximately 1.6-second opening hold, 20 observed scroll frames over 2.6 seconds (about 8 fps), and 1.6-second closing hold; GIF timestamp quantization yields 5.84 seconds.",
+        "transformations": "Scale to 600 x 400; normalize frame timing for GIF playback; palette quantization and GIF delta compression only. No title cards, transitions, overlays, reconstructed UI, or added visual effects.",
+        "palette": {
+          "colors": 160,
+          "dither": "bayer",
+          "bayerScale": 4
+        }
+      },
+      "refresh": {
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "loadWait": "Wait for network idle, then at least 4 seconds for entrance/loading animation; confirm fonts and hero imagery are visible.",
+        "actions": "Use only the stated homepage wheel scroll. Do not activate booking, contact, payment, account, or outbound messaging actions.",
+        "review": "Inspect decoded opening, scroll, and closing frames; confirm the actual public content and shared credit; verify dimensions, duration, frame count, bytes, and hash after encoding."
+      }
+    },
+    {
+      "file": "mud-ceramica.gif",
+      "sourceUrl": "https://mudescoladeceramica.com/pt",
+      "resolvedUrl": "https://mudescoladeceramica.com/pt",
+      "sourceTitle": "MUD Escola de Cerâmica | Escola de cerâmica no Leblon, Rio de Janeiro",
+      "capturedAt": "2026-09-08T13:19:43.076Z",
+      "sourceState": "Current public website observed on capture date; no new release or deployment is implied.",
+      "sharedProjectCredit": "Shared work with Walberth Soares through Civico Due (https://civicodue.eu/).",
+      "capture": {
+        "browser": "Google Chrome 152.0.7977.76",
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "deviceScaleFactor": 1,
+        "method": "Lossless screenshots from an independent Playwright browser during real wheel input; no DOM, content, or style changes.",
+        "action": "Portuguese homepage ceramic-work hero, then wheel-scroll 700 CSS pixels into the Aulas class overview.",
+        "sourceFrameCount": 80,
+        "sourceCaptureWallMs": 15507
+      },
+      "export": {
+        "width": 600,
+        "height": 400,
+        "durationSeconds": 5.84,
+        "frames": 23,
+        "bytes": 1638985,
+        "sha256": "02bc3a370a6c01d79cc264f4eb18192186fc1f85526b2114ad91e68da7b669c4",
+        "loop": "infinite",
+        "cadence": "Approximately 1.6-second opening hold, 20 observed scroll frames over 2.6 seconds (about 8 fps), and 1.6-second closing hold; GIF timestamp quantization yields 5.84 seconds.",
+        "transformations": "Scale to 600 x 400; normalize frame timing for GIF playback; palette quantization and GIF delta compression only. No title cards, transitions, overlays, reconstructed UI, or added visual effects.",
+        "palette": {
+          "colors": 128,
+          "dither": "none"
+        }
+      },
+      "refresh": {
+        "viewport": {
+          "width": 1200,
+          "height": 800
+        },
+        "loadWait": "Wait for network idle, then at least 4 seconds for entrance/loading animation; confirm fonts and hero imagery are visible.",
+        "actions": "Use only the stated homepage wheel scroll. Do not activate booking, contact, payment, account, or outbound messaging actions.",
+        "review": "Inspect decoded opening, scroll, and closing frames; confirm the actual public content and shared credit; verify dimensions, duration, frame count, bytes, and hash after encoding."
+      }
+    }
+  ]
+}
