@@ -8,11 +8,11 @@ I build agent infrastructure, research tools, websites and games. Here's the wor
 
 <sub>These clips include demos and work in progress. Open a repository for the latest build.</sub>
 
-## Latest demo: Switchyard
+## Latest demo: BoundaryBench
 
-<a href="https://fortunexbt.github.io/switchyard/"><img src="./assets/motion/tools/switchyard.gif" width="800" alt="Latest Switchyard frontend demo: a compact console replaying an incident, stopping execution, and recording a receipt" /></a>
+<a href="https://fortunexbt.github.io/boundary-bench/"><img src="./assets/boundary-bench-frontend.png" width="800" alt="BoundaryBench frontend showing paired agent-control scenarios, scorecards and a verified trace inspector" /></a>
 
-Try the live [GitHub Pages demo](https://fortunexbt.github.io/switchyard/) or read the [source repository](https://github.com/fortunexbt/switchyard). It is a browser-only proof; the full local version adds the FastAPI control plane.
+Try the live [GitHub Pages demo](https://fortunexbt.github.io/boundary-bench/) or read the [source repository](https://github.com/fortunexbt/boundary-bench). It is an offline, deterministic fixture pack: a browser-visible proof of the evaluator and evidence dashboard, not a production security certification.
 
 ## Agent infrastructure
 
@@ -42,7 +42,7 @@ I build the tools around the agents: APIs, interfaces and developer tools for se
 <table>
   <tr>
     <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/tablebeam">Tablebeam</a></h3><p>Tablebeam’s current visual language: local-model questions, source rows and a clear data surface.</p><a href="https://github.com/fortunexbt/tablebeam"><img src="./assets/motion/tools/tablebeam.gif" width="100%" alt="Current Tablebeam project interface and local data workflow" /></a><p><a href="https://github.com/fortunexbt/tablebeam">Code ↗</a></p></td>
-    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3><p>Test where an agent should stop—and where permitted work should continue. Synthetic demo.</p><a href="https://github.com/fortunexbt/boundary-bench"><img src="./assets/motion/tools/boundary-bench.gif" width="100%" alt="BoundaryBench exploring synthetic agent-control test fixtures" /></a><p><a href="https://fortunexbt.github.io/boundary-bench/">Explore live ↗</a> · <a href="https://github.com/fortunexbt/boundary-bench">Code ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3><p>Test where an agent should stop—and where permitted work should continue. Paired scenarios, receipts and a trace inspector.</p><a href="https://github.com/fortunexbt/boundary-bench"><img src="./assets/boundary-bench-frontend.png" width="100%" alt="BoundaryBench frontend showing paired agent-control test fixtures and verified receipts" /></a><p><a href="https://fortunexbt.github.io/boundary-bench/">Explore live ↗</a> · <a href="https://github.com/fortunexbt/boundary-bench">Code ↗</a></p></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/queueglass">Queueglass</a></h3><p>A simulated queue lab for exploring pressure, capacity, retries and recovery.</p><a href="https://github.com/fortunexbt/queueglass"><img src="./assets/motion/tools/queueglass.gif" width="100%" alt="Queueglass showing a simulated queue as its load changes" /></a><p><a href="https://github.com/fortunexbt/queueglass">Code ↗</a></p></td>
