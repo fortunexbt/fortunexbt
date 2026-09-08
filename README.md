@@ -4,13 +4,17 @@ I build agent infrastructure, research tools, websites and games. Here's the wor
 
 [Website](https://fortunexbt.com) &nbsp; / &nbsp; [All repositories](https://github.com/fortunexbt?tab=repositories) &nbsp; / &nbsp; [Say hello](https://t.me/fortunexbt)
 
+[Agents](#agent-infrastructure) · [Games](#games--terminal-experiments) · [Tools](#data-questions--experiments) · [Websites](#websites-people-use) · [About](#behind-the-builds)
+
 <sub>These clips include demos and work in progress. Open a repository for the latest build.</sub>
 
 ## Agent infrastructure
 
-<a href="https://github.com/mutx-dev/mutx-dev"><img src="./assets/motion/tools/mutx.gif" width="800" alt="MUTX operator demo showing agent runs and their controls with illustrative data" /></a>
+### [MUTX](https://github.com/mutx-dev/mutx-dev)
 
-**[MUTX](https://github.com/mutx-dev/mutx-dev)** — I build the tools around the agents: APIs, interfaces and developer tools for seeing what is running, setting limits and stepping in.
+I build the tools around the agents: APIs, interfaces and developer tools for seeing what is running, setting limits and stepping in.
+
+<a href="https://github.com/mutx-dev/mutx-dev"><img src="./assets/motion/tools/mutx.gif" width="800" alt="MUTX operator demo showing agent runs and their controls with illustrative data" /></a>
 
 <sub>Operator demo with illustrative data. [Documentation](https://docs.mutx.dev/) · [Upstream credits](https://github.com/mutx-dev/mutx-dev/blob/main/CREDITS.md)</sub>
 
@@ -70,6 +74,8 @@ I build agent infrastructure, research tools, websites and games. Here's the wor
 
 ## Websites people use
 
+<sub>Shared work with Walberth Soares through [Civico Due](https://civicodue.eu/). These are recordings of the public websites.</sub>
+
 <h3><a href="https://www.bottegapriori.com/">Bottega Dei Priori</a></h3>
 <p>A restaurant's welcome, bilingual menus and direct booking conversations.</p>
 <a href="https://www.bottegapriori.com/"><img src="./assets/motion/websites/bottega-priori.gif" width="600" alt="Scrolling through Bottega Dei Priori restaurant website and its food photography" /></a>
@@ -79,8 +85,6 @@ I build agent infrastructure, research tools, websites and games. Here's the wor
 <p>A ceramics school, its studio and a finder for the weekly classes.</p>
 <a href="https://mudescoladeceramica.com/pt"><img src="./assets/motion/websites/mud-ceramica.gif" width="600" alt="MUD ceramic studio website and its class overview" /></a>
 <p><a href="https://mudescoladeceramica.com/pt">Visit website ↗</a></p>
-
-<sub>Shared work with Walberth Soares through [Civico Due](https://civicodue.eu/). These are recordings of the public websites.</sub>
 
 ## Behind the builds
 
