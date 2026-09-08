@@ -90,17 +90,17 @@
       "file": "assets/motion/tools/tablebeam.gif",
       "project": "tablebeam",
       "repository": "https://github.com/fortunexbt/tablebeam",
-      "sourceCommit": "c47c3d65c58373cf27cb09d3508bdb19ab8f98e2",
-      "sourceUrl": "https://github.com/fortunexbt/tablebeam/blob/c47c3d65c58373cf27cb09d3508bdb19ab8f98e2/sample_data.csv",
-      "method": "Isolated public source snapshot; Streamlit public sample CSV; real Explore tab and profile scrolling.",
-      "boundary": "Table explorer and deterministic profile only. LLM query timed out; no answer or source-citation capability is implied by this clip.",
+      "sourceCommit": "3fc71e5e7b4ca6b264745cef73878efcbca71e8d",
+      "sourceUrl": "https://github.com/fortunexbt/tablebeam/blob/3fc71e5e7b4ca6b264745cef73878efcbca71e8d/assets/tablebeam-banner.jpg",
+      "method": "Latest public source snapshot banner, presented as a restrained motion plate so the profile reflects the current visual language without fabricating a live query.",
+      "boundary": "Current project artwork only; this clip does not imply a generated answer or source-citation run.",
       "reviewedOn": "2026-09-08",
       "width": 800,
-      "height": 553,
-      "frames": 64,
-      "durationSeconds": 8.01,
-      "bytes": 910521,
-      "sha256": "eff39df246368906ebcb305d3c4d3dcac32bc96eaed6f2aeec410c6ec3133fb1"
+      "height": 320,
+      "frames": 20,
+      "durationSeconds": 2.2,
+      "bytes": 2316618,
+      "sha256": "727e12a779933f30163231a0e3a4b46dc220f5169a8827b0bb94bfe20e152ff9"
     },
     {
       "file": "assets/motion/tools/boundary-bench.gif",
@@ -111,44 +111,45 @@
       "method": "Public evidence explorer. Real selection of guarded then naive retrieval-injection result; complete assertion pane captured after each UI selection. Navigation settling time omitted; no data or UI fabricated.",
       "boundary": "Illustrative synthetic fixture evaluation, not a commercial model ranking.",
       "reviewedOn": "2026-09-08",
+      "method": "Latest public evidence explorer hero asset, presented as a restrained 20-frame motion plate to reflect the current published visual system.",
       "width": 800,
-      "height": 333,
-      "frames": 64,
-      "durationSeconds": 8.01,
-      "bytes": 65572,
-      "sha256": "6b7f7e7986047baea73183e0ea672d879adc3c947b9da2170e6fddaeb1b205e3"
+      "height": 450,
+      "frames": 20,
+      "durationSeconds": 2.66,
+      "bytes": 1568817,
+      "sha256": "21f4d41ebb62a4f2384a471e280f5b50868c6e4f3c116a16bc08bffdc4b23101"
     },
     {
       "file": "assets/motion/tools/switchyard.gif",
       "project": "switchyard",
       "repository": "https://github.com/fortunexbt/switchyard",
-      "sourceCommit": "a57f382dc02e46a51b67e84f59626ada55aff0f6",
-      "sourceUrl": "https://github.com/fortunexbt/switchyard/blob/a57f382dc02e46a51b67e84f59626ada55aff0f6/backend/app/demo_data/orbital-relay-recovery.json",
-      "method": "Isolated public snapshot; real Route through gate action. Frame focuses complete route/execution diagram through returned allowed result and footer status. No late scroll.",
+      "sourceCommit": "463e4080029f74c2367ea106cecd52373b37c7d7",
+      "sourceUrl": "https://github.com/fortunexbt/switchyard/blob/463e4080029f74c2367ea106cecd52373b37c7d7/assets/switchyard-console.png",
+      "method": "Latest public source snapshot console, presented as a restrained motion plate focused on the current execution-boundary visual system.",
       "boundary": "Offline fixture execution with body-free receipt. No network providers or real operations.",
       "reviewedOn": "2026-09-08",
       "width": 800,
-      "height": 508,
-      "frames": 64,
-      "durationSeconds": 8.01,
-      "bytes": 84838,
-      "sha256": "af80965a8b8509c319161b7f3c07d0c972771d93890daadbf4a553e1b508a6f1"
+      "height": 450,
+      "frames": 20,
+      "durationSeconds": 2.66,
+      "bytes": 1516394,
+      "sha256": "a1b7b69820994aeae55f98333ea1bc673e78133182381526cb00182738b692cb"
     },
     {
       "file": "assets/motion/tools/queueglass.gif",
       "project": "queueglass",
       "repository": "https://github.com/fortunexbt/queueglass",
-      "sourceCommit": "776bba6aee2b8f2aa680e5f8d581696b420ff4c8",
-      "sourceUrl": "https://github.com/fortunexbt/queueglass/blob/776bba6aee2b8f2aa680e5f8d581696b420ff4c8/src/lib/simulation.js",
-      "method": "Isolated public snapshot built and served in production mode. Seed QUEUEGLASS-7, burst; advance20ticks, autorun; record topology. Crop ends below all six counters to avoid a partial following section.",
+      "sourceCommit": "6bb9b2a65779c1f7c4c79ffc5ac797a8a330230b",
+      "sourceUrl": "https://github.com/fortunexbt/queueglass/blob/6bb9b2a65779c1f7c4c79ffc5ac797a8a330230b/docs/queueglass.png",
+      "method": "Latest public source snapshot topology, presented as a restrained motion plate with a measured camera drift. No data or UI fabricated.",
       "boundary": "Deterministic educational simulation, not telemetry or performance benchmark.",
       "reviewedOn": "2026-09-08",
       "width": 800,
-      "height": 521,
-      "frames": 64,
-      "durationSeconds": 8.01,
-      "bytes": 207242,
-      "sha256": "8ebddf3a13afe54101f2bd38b8ef61fb7d77fb90679919d6a3227dbb4dac6103"
+      "height": 555,
+      "frames": 20,
+      "durationSeconds": 2.66,
+      "bytes": 611742,
+      "sha256": "f9547e4132e9cdd0d2f8395f13664ccb057cf1dd50eb63a358abda43f05163ec"
     },
     {
       "file": "assets/motion/tools/barter.gif",
@@ -193,10 +194,10 @@
       "reviewedOn": "2026-09-08",
       "width": 600,
       "height": 400,
-      "frames": 23,
-      "durationSeconds": 5.84,
-      "bytes": 1955423,
-      "sha256": "50792a7657568d42f950ebd8e93a28cd64d25796888cfc4dc250a29fd00dfba8"
+      "frames": 83,
+      "durationSeconds": 5.54,
+      "bytes": 3111710,
+      "sha256": "524ee818d0f4ba970cec01b07c0228790e2480c85af95ac47a9768e0d8bbbd61"
     },
     {
       "file": "assets/motion/websites/mud-ceramica.gif",
@@ -209,10 +210,10 @@
       "reviewedOn": "2026-09-08",
       "width": 600,
       "height": 400,
-      "frames": 23,
-      "durationSeconds": 5.84,
-      "bytes": 1638985,
-      "sha256": "02bc3a370a6c01d79cc264f4eb18192186fc1f85526b2114ad91e68da7b669c4"
+      "frames": 101,
+      "durationSeconds": 6.74,
+      "bytes": 3128230,
+      "sha256": "2fcd8f4a4cec223b6f76e813ea7e31a859275063f75072ee5e4ef9cb457fa11d"
     }
   ]
 }
