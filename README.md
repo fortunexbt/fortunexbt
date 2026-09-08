@@ -1,60 +1,95 @@
-<img align="right" src="./assets/mario.jpg" width="136" alt="Mario Barbantini Scanni, smiling" />
+# Mario / Fortune
 
-# Hello, I'm Mario.
+I build agent infrastructure, research tools, websites and games. Here's the work in motion.
 
-**Usually Fortune online.**
+[Website](https://fortunexbt.com) &nbsp; / &nbsp; [All repositories](https://github.com/fortunexbt?tab=repositories) &nbsp; / &nbsp; [Say hello](https://t.me/fortunexbt)
 
-I build websites and useful tools — for local businesses, difficult research questions, and people working with AI. I like making the complicated part easier to use.
+<sub>These clips include demos and work in progress. Open a repository for the latest build.</sub>
 
-[Website](https://fortunexbt.com) &nbsp; / &nbsp; [MUTX](https://github.com/mutx-dev/mutx-dev) &nbsp; / &nbsp; [Say hello](https://t.me/fortunexbt)
+## Agent infrastructure
 
-<br clear="right" />
+<a href="https://github.com/mutx-dev/mutx-dev"><img src="./assets/motion/tools/mutx.gif" width="800" alt="MUTX operator demo showing agent runs and their controls with illustrative data" /></a>
 
-## Work, up close
+**[MUTX](https://github.com/mutx-dev/mutx-dev)** — I build the tools around the agents: APIs, interfaces and developer tools for seeing what is running, setting limits and stepping in.
 
-**[MUTX](https://github.com/mutx-dev/mutx-dev)** · Tools around AI agents. I work on the API, dashboard, CLI and SDK so people can see what their agents are doing, set limits and step in. A human approval becomes a saved record, with a life beyond the chat. [Docs ↗](https://docs.mutx.dev/) · [Upstream credits ↗](https://github.com/mutx-dev/mutx-dev/blob/main/CREDITS.md)
+<sub>Operator demo with illustrative data. [Documentation](https://docs.mutx.dev/) · [Upstream credits](https://github.com/mutx-dev/mutx-dev/blob/main/CREDITS.md)</sub>
 
-**[Tablebeam](https://github.com/fortunexbt/tablebeam)** · Questions about a spreadsheet, with the source rows beside the answer. A separate search chooses the rows; a local model writes the response. Exact totals and joins stay with a dataframe or SQL.
+## Games & terminal experiments
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://www.bottegapriori.com/"><img src="./assets/bottega.webp" width="100%" alt="Bottega Dei Priori's restaurant website, with its food photography and booking link" /></a>
-      <h3><a href="https://www.bottegapriori.com/">Bottega Dei Priori ↗</a></h3>
-      <p>Bilingual menus and direct booking conversations.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://mudescoladeceramica.com/pt"><img src="./assets/mud.webp" width="100%" alt="MUD's ceramics school website showing its studio and weekly classes" /></a>
-      <h3><a href="https://mudescoladeceramica.com/pt">MUD ↗</a></h3>
-      <p>A ceramics studio and its weekly class finder.</p>
-    </td>
-  </tr>
-</table>
+<h3><a href="https://github.com/fortunexbt/solar-drift">Solar Drift</a></h3>
+<p>Circle the suns. Cross your wake. Collect the light.</p>
+<a href="https://github.com/fortunexbt/solar-drift"><img src="./assets/motion/solar-drift.gif" width="800" alt="Solar Drift ship closing an orbit and collecting a sun" /></a>
+<p><a href="https://github.com/fortunexbt/solar-drift/pull/3">Orbital build preview ↗</a> · <a href="https://fortunexbt.github.io/solar-drift/">Published game ↗</a></p>
 
-<sub>Both websites are shared work with Walberth Soares through <a href="https://civicodue.eu/">Civico Due</a>. Images show the real public websites.</sub>
+<h3><a href="https://github.com/fortunexbt/loop-courier">Loop Courier</a></h3>
+<p>Draw one route through a city of pickups, deadlines and awkward detours.</p>
+<a href="https://github.com/fortunexbt/loop-courier"><img src="./assets/motion/games/loop-courier.gif" width="800" alt="Loop Courier route collecting and delivering a parcel" /></a>
+<p><a href="https://fortunexbt.github.io/loop-courier/">Play ↗</a> · <a href="https://github.com/fortunexbt/loop-courier">Code &amp; builds ↗</a></p>
 
-## A game for your next break
+<h3><a href="https://github.com/fortunexbt/terminal-starfield">Terminal Starfield</a></h3>
+<p>A space-combat roguelite rendered entirely in the terminal.</p>
+<a href="https://github.com/fortunexbt/terminal-starfield"><img src="./assets/motion/games/terminal-starfield.gif" width="800" alt="Terminal Starfield animated space combat" /></a>
+<p><a href="https://github.com/fortunexbt/terminal-starfield">Code &amp; builds ↗</a></p>
 
-<a href="https://github.com/fortunexbt/solar-drift/tree/fortune/orbital-lasso"><img src="./assets/solar-drift.webp" width="100%" alt="The new Solar Drift: a luminous ship trail looping around golden suns in a dark orbital field" /></a>
+<h3><a href="https://github.com/fortunexbt/ckitty">ckitty</a></h3>
+<p>A small terminal companion, written in C and animated through procedural poses.</p>
+<a href="https://github.com/fortunexbt/ckitty"><img src="./assets/motion/games/ckitty.gif" width="800" alt="A procedural terminal cat changing poses" /></a>
+<p><a href="https://github.com/fortunexbt/ckitty">Code &amp; builds ↗</a></p>
 
-**[Solar Drift](https://github.com/fortunexbt/solar-drift/tree/fortune/orbital-lasso)** · I'm rebuilding it around one rule: circle the suns, then cross your own wake to collect them. Wide orbits can catch more light; red bodies make the route interesting. Keyboard, pointer and touch, with sound made in the browser.
+## Data, questions & experiments
 
-<sub>The orbital redesign is on its review branch. <a href="https://fortunexbt.github.io/solar-drift/">The published game</a> currently runs the earlier version.</sub>
+<h3><a href="https://github.com/fortunexbt/tablebeam">Tablebeam</a></h3>
+<p>A local-model table tool. This clip explores sample data and its profile.</p>
+<a href="https://github.com/fortunexbt/tablebeam"><img src="./assets/motion/tools/tablebeam.gif" width="800" alt="Tablebeam exploring a sample table and its data profile" /></a>
+<p><a href="https://github.com/fortunexbt/tablebeam">Code &amp; builds ↗</a></p>
 
-More small experiments: [Terminal Starfield](https://github.com/fortunexbt/terminal-starfield) · [ckitty](https://github.com/fortunexbt/ckitty) · [Loop Courier](https://github.com/fortunexbt/loop-courier).
+<h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3>
+<p>Test where an agent should stop—and where permitted work should continue. Synthetic demo.</p>
+<a href="https://github.com/fortunexbt/boundary-bench"><img src="./assets/motion/tools/boundary-bench.gif" width="800" alt="BoundaryBench exploring synthetic agent-control test fixtures" /></a>
+<p><a href="https://github.com/fortunexbt/boundary-bench">Code &amp; builds ↗</a></p>
 
-## Behind the work
+<h3><a href="https://github.com/fortunexbt/queueglass">Queueglass</a></h3>
+<p>A simulated queue lab for exploring pressure, capacity, retries and recovery.</p>
+<a href="https://github.com/fortunexbt/queueglass"><img src="./assets/motion/tools/queueglass.gif" width="800" alt="Queueglass showing a simulated queue as its load changes" /></a>
+<p><a href="https://github.com/fortunexbt/queueglass">Code &amp; builds ↗</a></p>
+
+<h3><a href="https://github.com/fortunexbt/switchyard">Switchyard</a></h3>
+<p>A local operator console with visible policy gates, stoppable runs and a record of what happened.</p>
+<a href="https://github.com/fortunexbt/switchyard"><img src="./assets/motion/tools/switchyard.gif" width="800" alt="Switchyard local console showing an execution policy gate" /></a>
+<p><a href="https://github.com/fortunexbt/switchyard">Code &amp; builds ↗</a></p>
+
+<h3><a href="https://github.com/fortunexbt/barter">Barter</a></h3>
+<p>A trade-protocol lab with replayable state and an explicit simulation ledger.</p>
+<a href="https://github.com/fortunexbt/barter"><img src="./assets/motion/tools/barter.gif" width="800" alt="Barter replaying a simulated trade protocol" /></a>
+<p><a href="https://github.com/fortunexbt/barter">Code &amp; builds ↗</a></p>
+
+<h3><a href="https://github.com/fortunexbt/ambient-relay">Ambient Relay</a></h3>
+<p>Synthetic Discord events, explicit policy and inspectable outcomes. An offline automation lab.</p>
+<a href="https://github.com/fortunexbt/ambient-relay"><img src="./assets/motion/tools/ambient-relay.gif" width="800" alt="Ambient Relay processing synthetic events through policy checks" /></a>
+<p><a href="https://github.com/fortunexbt/ambient-relay">Code &amp; builds ↗</a></p>
+
+## Websites people use
+
+<h3><a href="https://www.bottegapriori.com/">Bottega Dei Priori</a></h3>
+<p>A restaurant's welcome, bilingual menus and direct booking conversations.</p>
+<a href="https://www.bottegapriori.com/"><img src="./assets/motion/websites/bottega-priori.gif" width="600" alt="Scrolling through Bottega Dei Priori restaurant website and its food photography" /></a>
+<p><a href="https://www.bottegapriori.com/">Visit website ↗</a></p>
+
+<h3><a href="https://mudescoladeceramica.com/pt">MUD</a></h3>
+<p>A ceramics school, its studio and a finder for the weekly classes.</p>
+<a href="https://mudescoladeceramica.com/pt"><img src="./assets/motion/websites/mud-ceramica.gif" width="600" alt="MUD ceramic studio website and its class overview" /></a>
+<p><a href="https://mudescoladeceramica.com/pt">Visit website ↗</a></p>
+
+<sub>Shared work with Walberth Soares through [Civico Due](https://civicodue.eu/). These are recordings of the public websites.</sub>
+
+## Behind the builds
 
 I studied politics and international relations at Cardiff University and have worked in crypto research and governance. That interest in how people make decisions runs through the software I build.
 
 I use AI throughout development. I choose what to build, check the output, integrate the pieces and review the result. The decisions and delivery are my responsibility.
 
-Usually Python and TypeScript, often React / Next.js, FastAPI, SQL and Docker. Small terminal projects give me a reason to write C. The task decides the tools.
-
-[BoundaryBench](https://github.com/fortunexbt/boundary-bench) explores how AI agents handle boundaries and permitted work. The [Field Manual](https://github.com/fortunexbt/docs) has longer project notes. You can also follow my submitted contributions to [Hermes Agent](https://github.com/NousResearch/hermes-agent/pull/65575) and [Open Design](https://github.com/nexu-io/open-design/pull/6427).
+More in the [Field Manual](https://github.com/fortunexbt/docs). My submitted contributions include [Hermes Agent](https://github.com/NousResearch/hermes-agent/pull/65575) and [Open Design](https://github.com/nexu-io/open-design/pull/6427).
 
 ---
-
-Tell me about the business, the idea, or the thing you're tired of doing by hand.
 
 [Work & contact](https://fortunexbt.com) &nbsp; / &nbsp; [Telegram](https://t.me/fortunexbt) &nbsp; / &nbsp; [X](https://x.com/fortunexbt) &nbsp; / &nbsp; [Writing](https://fortunexbt.substack.com/)
