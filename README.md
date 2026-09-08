@@ -2,17 +2,9 @@
 
 I build agent infrastructure, research tools, websites and games. Here's the work in motion.
 
-[Website](https://fortunexbt.com) &nbsp; / &nbsp; [All repositories](https://github.com/fortunexbt?tab=repositories) &nbsp; / &nbsp; [Say hello](https://t.me/fortunexbt)
-
 [Agents](#agent-infrastructure) · [Games](#games--terminal-experiments) · [Tools](#data-questions--experiments) · [Websites](#websites-people-use) · [About](#behind-the-builds)
 
 <sub>These clips include demos and work in progress. Open a repository for the latest build.</sub>
-
-## Latest demo: Switchyard
-
-<a href="https://fortunexbt.github.io/switchyard/"><img src="./assets/motion/tools/switchyard.gif" width="800" alt="Latest Switchyard frontend demo: a compact console replaying an incident, stopping execution, and recording a receipt" /></a>
-
-Try the live [GitHub Pages demo](https://fortunexbt.github.io/switchyard/) or read the [source repository](https://github.com/fortunexbt/switchyard). It is a browser-only proof; the full local version adds the FastAPI control plane.
 
 ## Agent infrastructure
 
