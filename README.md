@@ -48,7 +48,7 @@ I build the tools around the agents: APIs, interfaces and developer tools for se
 
 ## Websites people use
 
-<sub>Shared work with Walberth Soares through [Civico Due](https://civicodue.eu/). These are recordings of the public websites.</sub>
+<sub>Local SME work through [Civico Due](https://civicodue.eu/). These are recordings of the public websites.</sub>
 
 <h3><a href="https://www.bottegapriori.com/">Bottega Dei Priori</a></h3>
 <p>A restaurant's welcome, bilingual menus and direct booking conversations.</p>
