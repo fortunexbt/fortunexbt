@@ -4,7 +4,7 @@ I build software for running AI agents in production without losing control of t
 
 Python and TypeScript day to day, C when it needs to be small. FastAPI, Next.js, Electron, Postgres, Terraform and Helm.
 
-[MUTX](#mutx) · [Research tools](#research-tools) · [Benchmarks](#benchmarks) · [Client websites](#client-websites) · [Games](#games) · [Background](#background)
+[MUTX](#mutx) · [Research tools](#research-tools) · [Benchmarks](#benchmarks) · [Websites](#websites) · [Games](#games) · [Background](#background)
 
 ## MUTX
 
@@ -32,12 +32,12 @@ Smaller labs, most of them seeded and deterministic so a run can be replayed exa
 
 <table>
   <tr>
-    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3><p>Crash tests for agent control planes. Each scenario checks that a stop, budget or approval blocks the forbidden action and lets permitted work continue.</p><a href="https://github.com/fortunexbt/boundary-bench"><img src="./assets/motion/tools/boundary-bench.gif" width="100%" alt="BoundaryBench exploring synthetic agent-control test fixtures" /></a><p><sub>TypeScript. CI with CodeQL scanning.</sub><br><a href="https://fortunexbt.github.io/boundary-bench/">Live demo ↗</a> · <a href="https://github.com/fortunexbt/boundary-bench">Code ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></h3><p>Crash tests for agent control planes. Each scenario checks that a stop, budget or approval blocks the forbidden action and lets permitted work continue. Every failure links to the trace events that caused it.</p><a href="https://github.com/fortunexbt/boundary-bench"><img src="./assets/motion/tools/boundary-bench.gif" width="100%" alt="BoundaryBench results: opening a failed budget scenario, its cited trace event, then the guarded candidate passing" /></a><p><sub>TypeScript. CI with CodeQL scanning.</sub><br><a href="https://fortunexbt.github.io/boundary-bench/">Live demo ↗</a> · <a href="https://github.com/fortunexbt/boundary-bench">Code ↗</a></p></td>
     <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/switchyard">Switchyard</a></h3><p>A local operator console with visible policy gates. The demo replays a captured incident so you can stop it and inspect the audit receipt it leaves.</p><a href="https://fortunexbt.github.io/switchyard/"><img src="./assets/motion/tools/switchyard.gif" width="100%" alt="Switchyard compact console showing a replay route, stop control and receipt ledger" /></a><p><sub>TypeScript front end, Python backend.</sub><br><a href="https://fortunexbt.github.io/switchyard/">Live demo ↗</a> · <a href="https://github.com/fortunexbt/switchyard">Code ↗</a></p></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/tablebeam">Tablebeam</a></h3><p>Ask questions about a CSV or Google Sheet with a local model, and see the source rows behind each answer. Works with LM Studio, Ollama or any OpenAI-compatible server.</p><a href="https://github.com/fortunexbt/tablebeam"><img src="./assets/motion/tools/tablebeam.gif" width="100%" alt="Tablebeam interface answering a question from local data" /></a><p><sub>Python. v2.0.0.</sub><br><a href="https://github.com/fortunexbt/tablebeam">Code ↗</a></p></td>
-    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/barter">Barter Protocol Lab</a></h3><p>Replays synthetic commodity trades through a deterministic paper ledger, with a server and storage layer behind the demo.</p><a href="https://fortunexbt.github.io/barter/"><img src="https://raw.githubusercontent.com/fortunexbt/barter/main/assets/barter-protocol-lab.jpg" width="100%" alt="Barter Protocol Lab paper-ledger workbench replaying a simulated trade" /></a><p><sub>TypeScript, full stack.</sub><br><a href="https://fortunexbt.github.io/barter/">Live demo ↗</a> · <a href="https://github.com/fortunexbt/barter">Code ↗</a></p></td>
+    <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/barter">Barter Protocol Lab</a></h3><p>A commodity barter state machine replayed from a fixed event journal. Each step recomputes the state, the leg quantities and the journal hash from the events.</p><a href="https://fortunexbt.github.io/barter/"><img src="./assets/motion/tools/barter.gif" width="100%" alt="Barter Protocol Lab playing a wheat for freight counter-offer from Listed to Settled, with the wheat quantity amended" /></a><p><sub>TypeScript, full stack.</sub><br><a href="https://fortunexbt.github.io/barter/">Live demo ↗</a> · <a href="https://github.com/fortunexbt/barter">Code ↗</a></p></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><h3><a href="https://github.com/fortunexbt/ambient-relay">Ambient Relay</a></h3><p>An offline Discord automation lab. Synthetic events pass through explicit policy checks, and each outcome leaves a receipt you can inspect.</p><a href="https://github.com/fortunexbt/ambient-relay"><img src="./assets/motion/tools/ambient-relay.gif" width="100%" alt="Ambient Relay processing synthetic events through policy checks" /></a><p><sub>JavaScript.</sub><br><a href="https://github.com/fortunexbt/ambient-relay">Code ↗</a></p></td>
@@ -50,19 +50,24 @@ Smaller labs, most of them seeded and deterministic so a run can be replayed exa
 - [flock-baseline-runner](https://github.com/fortunexbt/flock-baseline-runner) runs the unchanged Flock BLAKE3 challenge on GitHub-hosted runners, then tests single small kernel changes in A-B-B-A order on the same machine so the comparison holds.
 - [minecraft-frame-bench](https://github.com/fortunexbt/minecraft-frame-bench) and [minecraft-apple-silicon-framework](https://github.com/fortunexbt/minecraft-apple-silicon-framework) measure real frame times for Minecraft Java shader setups on Apple silicon, over timed routes.
 
-## Client websites
+## Websites
 
-<sub>Built for local businesses through [a small studio](https://fortunexbt.com/). The clips are recordings of the live sites.</sub>
+Designed and built through my studio, [a small studio](https://fortunexbt.com/). Bottega Dei Priori and MUD are shared work with a collaborator. Each clip is a 50fps capture of the live site.
 
-<h3><a href="https://www.bottegapriori.com/">Bottega Dei Priori</a></h3>
-<p>A restaurant site with bilingual menus and direct booking.</p>
-<a href="https://www.bottegapriori.com/"><img src="./assets/motion/websites/bottega-priori.gif" width="600" alt="Scrolling through Bottega Dei Priori restaurant website and its food photography" /></a>
-<p><a href="https://www.bottegapriori.com/">Visit website ↗</a></p>
-
-<h3><a href="https://mudescoladeceramica.com/pt">MUD</a></h3>
-<p>A site for a ceramics school, with a finder for its weekly classes.</p>
-<a href="https://mudescoladeceramica.com/pt"><img src="./assets/motion/websites/mud-ceramica.gif" width="600" alt="MUD ceramic studio website and its class overview" /></a>
-<p><a href="https://mudescoladeceramica.com/pt">Visit website ↗</a></p>
+<table>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://fortunexbt.com/">a small studio</a></h3><p>The studio's own site, built around a scroll-driven phone sequence.</p><a href="https://fortunexbt.com/"><img src="./assets/motion/websites/civico-due.gif" width="100%" alt="a small studio homepage scrolling through its phone sequence and services" /></a></td>
+    <td width="50%" valign="top"><h3><a href="https://www.bottegapriori.com/">Bottega Dei Priori</a></h3><p>A trattoria in Perugia, with bilingual menus and booking over WhatsApp.</p><a href="https://www.bottegapriori.com/"><img src="./assets/motion/websites/bottega-priori.gif" width="100%" alt="Bottega Dei Priori homepage scrolling from the food hero into the dining room photos" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://mudescoladeceramica.com/pt">MUD</a></h3><p>A ceramics school in Leblon, Rio de Janeiro, with a finder for its weekly classes.</p><a href="https://mudescoladeceramica.com/pt"><img src="./assets/motion/websites/mud-ceramica.gif" width="100%" alt="MUD homepage scrolling from the studio hero into the class overview" /></a></td>
+    <td width="50%" valign="top"><h3><a href="https://antico-frantoio-nunzi.vercel.app/">Antico Frantoio Nunzi</a></h3><p>A redesign proposal for an olive mill in Bevagna that has pressed oil since 1860.</p><a href="https://antico-frantoio-nunzi.vercel.app/"><img src="./assets/motion/websites/antico-frantoio-nunzi.gif" width="100%" alt="Antico Frantoio Nunzi redesign scrolling from the mill at night into its history" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><h3><a href="https://www.victoriainaudi.com/">Victoria Inaudi</a></h3><p>A poet's site in Spanish, Italian, Portuguese and English, with an editing panel for the author.</p><a href="https://www.victoriainaudi.com/"><img src="./assets/motion/websites/victoria-inaudi.gif" width="100%" alt="Victoria Inaudi homepage scrolling from the portrait into the poems" /></a></td>
+    <td width="50%" valign="top"><h3><a href="https://elisapanzavolta.com/">Elisa Panzavolta</a></h3><p>A psychologist's practice in Perugia, with events and booking for a first consultation.</p><a href="https://elisapanzavolta.com/"><img src="./assets/motion/websites/elisa-panzavolta.gif" width="100%" alt="Elisa Panzavolta homepage scrolling from the hero into upcoming events" /></a></td>
+  </tr>
+</table>
 
 ## Games
 
