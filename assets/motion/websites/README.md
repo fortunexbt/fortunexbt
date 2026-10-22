@@ -1,17 +1,20 @@
 # Website motion captures
 
-Actual public websites captured on **8 September 2026**, with an independent Chrome/Playwright browser. These previews show the observed live pages; they are not mockups or a claim that a new release was deployed.
+Public websites captured with an automated Chromium browser on real GPU rendering. These show the live pages (and, for Antico Frantoio Nunzi, the published redesign proposal). They are not mockups.
 
-Both websites are shared work with **Walberth Soares** through [Civico Due](https://civicodue.eu/). Keep that credit beside the profile presentation.
+Bottega Dei Priori and MUD are shared work with **Walberth Soares** through [Civico Due](https://civicodue.eu/). Keep that credit beside the profile presentation.
 
-| Capture | Dimensions | Duration | Frames | Bytes |
+| Capture | Site | Duration | GIF frames | Bytes |
 | --- | --- | --- | --- | --- |
-| [bottega-priori.gif](./bottega-priori.gif) | 600 × 400 | 5.54s | 83 | 3,111,710 |
-| [mud-ceramica.gif](./mud-ceramica.gif) | 600 × 400 | 6.74s | 101 | 3,128,230 |
+| [civico-due.gif](./civico-due.gif) | Civico Due | 5.30s | 150 | 627,438 |
+| [bottega-priori.gif](./bottega-priori.gif) | Bottega Dei Priori | 4.40s | 169 | 5,240,396 |
+| [mud-ceramica.gif](./mud-ceramica.gif) | MUD Escola de Cerâmica | 4.40s | 167 | 5,618,735 |
+| [antico-frantoio-nunzi.gif](./antico-frantoio-nunzi.gif) | Antico Frantoio Nunzi (redesign proposal) | 4.40s | 167 | 3,285,798 |
+| [victoria-inaudi.gif](./victoria-inaudi.gif) | Victoria Inaudi | 4.40s | 166 | 2,244,506 |
+| [elisa-panzavolta.gif](./elisa-panzavolta.gif) | Elisa Panzavolta | 4.40s | 187 | 2,166,426 |
 
-- **Bottega Dei Priori:** [public homepage](https://www.bottegapriori.com/), food hero → a short wheel scroll → restaurant photo grid.
-- **MUD Escola de Cerâmica:** [Portuguese homepage](https://mudescoladeceramica.com/pt), ceramic-work hero → a short wheel scroll → class overview.
+Each clip holds on the homepage, scrolls down on a cubic ease, holds, and scrolls back to the top so the loop has no jump. The viewport is 1280 × 800 at device scale 1, exported at 480 × 300.
 
-The browser viewport was 1200 × 800 at device scale 1. Each GIF is a current real-time browser recording at 15 fps, scaled to 600 × 400 with palette quantization and GIF delta compression. Page content, styles, images, and interactions were not altered; only sizing and GIF encoding were applied. No forms, bookings, payments, or contact actions were submitted.
+Time is stepped, not recorded. Every frame advances the page by exactly 20ms (timers, `requestAnimationFrame`, CSS and Web Animations, video), so frame pacing doesn't depend on how fast the machine renders. GIFs play at 50fps, the fastest delay browsers honour (20ms). Identical consecutive frames are merged into one longer frame by the encoder, which happens during the holds and in pinned scroll sections.
 
-The decoded opening, scroll and closing frames were inspected at final size. [captures.json](./captures.json) records the earlier capture provenance; the current recordings were refreshed after the public sites changed and should be recorded with the next provenance pass. Refresh from the public websites after their planned upgrades rather than reusing these as proof of their future state.
+[captures.json](./captures.json) records the source URL, scroll path, frame counts, bytes and SHA-256 for each file. To refresh, recapture all six with the same settings so the grid stays consistent.
