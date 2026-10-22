@@ -1,0 +1,93 @@
+- generic [ref=f3e3]:
+  - link "Skip to workspace" [ref=f3e4] [cursor=pointer]:
+    - /url: "#workspace"
+  - banner [ref=f3e5]:
+    - button "Switchyard dispatch" [ref=f3e6] [cursor=pointer]:
+      - generic [ref=f3e9]: Switchyard
+    - generic [ref=f3e10]: Offline execution labPolicy. Stop. Record.
+    - generic [ref=f3e11]:
+      - generic [ref=f3e12]: Gateway in this browser
+      - generic [ref=f3e14]: Offline fixture · No live systems
+    - button "Stop execution" [ref=f3e15] [cursor=pointer]
+  - navigation "Workspace" [ref=f3e18]:
+    - button "01 Dispatch" [ref=f3e19] [cursor=pointer]:
+      - generic [ref=f3e20]: "01"
+      - text: Dispatch
+    - button "02 Receipt ledger 0" [ref=f3e21] [cursor=pointer]:
+      - generic [ref=f3e22]: "02"
+      - text: Receipt ledger
+      - generic [ref=f3e23]: "0"
+    - button "03 Operating rules" [ref=f3e24] [cursor=pointer]:
+      - generic [ref=f3e25]: "03"
+      - text: Operating rules
+    - link "Source" [ref=f3e26] [cursor=pointer]:
+      - /url: https://github.com/fortunexbt/switchyard
+  - main [ref=f3e30]:
+    - generic [ref=f3e31]:
+      - generic [ref=f3e32]:
+        - paragraph [ref=f3e33]: OPERATOR CONSOLE / OFFLINE PROOF
+        - heading "Every action crosses a gate. Any run can be stopped." [level=1] [ref=f3e34]: Every action crosses a gate.Any run can be stopped.
+      - generic [ref=f3e35]:
+        - generic [ref=f3e36]:
+          - strong [ref=f3e37]: 17s
+          - generic [ref=f3e38]: HEARTBEAT JITTERRELAY 07 · CAPTURED
+        - paragraph [ref=f3e39]: "Loaded drill: orbital relay recovery. A drifting relay overlaps a maintenance window, and the replay reads captured evidence inside a read-only boundary."
+        - generic [ref=f3e40]: SYNTHETIC CAPTURE · 21 JUL 2026
+    - region "Incident replay" [ref=f3e41]:
+      - generic [ref=f3e42]:
+        - paragraph [ref=f3e43]:
+          - generic [ref=f3e44]: "01"
+          - text: Dispatch
+        - heading "Replay it. Try stopping it." [level=2] [ref=f3e45]
+        - paragraph [ref=f3e46]: The replay is deliberately paced so you can interrupt it. A completed run releases evidence. A stopped run releases only a receipt.
+        - button "Replay incident" [ref=f3e47] [cursor=pointer]
+        - group [ref=f3e50]:
+          - generic "Receipt annotation +" [ref=f3e51] [cursor=pointer]:
+            - text: Receipt annotation
+            - generic [ref=f3e52]: +
+      - generic [ref=f3e53]:
+        - generic [ref=f3e54]:
+          - generic [ref=f3e55]: "02"
+          - text: Execution route
+          - strong [ref=f3e56]: Boundary open
+        - 'img "Route: instruction, policy gate, fixture replay, receipt. No request dispatched." [ref=f3e57]':
+          - generic [ref=f3e58]: STOP TOKEN
+          - generic [ref=f3e64]:
+            - generic [ref=f3e66]: "01"
+            - generic [ref=f3e67]: Instruction
+            - generic [ref=f3e68]: DECLARE
+          - generic [ref=f3e69]:
+            - generic [ref=f3e71]: "02"
+            - generic [ref=f3e72]: Policy gate
+            - generic [ref=f3e73]: CHECK
+          - generic [ref=f3e74]:
+            - generic [ref=f3e76]: "03"
+            - generic [ref=f3e77]: Fixture
+            - generic [ref=f3e78]: REPLAY
+          - generic [ref=f3e79]:
+            - generic [ref=f3e81]: "04"
+            - generic [ref=f3e82]: Receipt
+            - generic [ref=f3e83]: RECORD
+        - generic [ref=f3e84]:
+          - generic [ref=f3e85]: The gate checks the capability, executor, and stop token.
+          - code [ref=f3e86]: GEN 00
+        - group [ref=f3e87]:
+          - generic "Inspect policy checks +" [ref=f3e88] [cursor=pointer]:
+            - text: Inspect policy checks
+            - generic [ref=f3e89]: +
+    - status [ref=f3e90]:
+      - generic [ref=f3e91]: ↳
+      - text: Gateway running in this browser. Fixture replay is available.
+    - generic [ref=f3e92]:
+      - generic [ref=f3e93]:
+        - generic [ref=f3e94]: "03"
+        - heading "Recent receipts" [level=2] [ref=f3e95]
+      - button "Open ledger" [ref=f3e96] [cursor=pointer]
+    - generic [ref=f3e99]:
+      - heading "No receipts yet." [level=3] [ref=f3e100]
+      - paragraph [ref=f3e101]: Replay the incident to create the first record.
+    - generic [ref=f3e102]:
+      - generic [ref=f3e103]: SWITCHYARD
+      - paragraph [ref=f3e104]: Commands are temporary. The record is metadata.
+      - link "Source" [ref=f3e105] [cursor=pointer]:
+        - /url: https://github.com/fortunexbt/switchyard

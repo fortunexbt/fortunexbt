@@ -1,0 +1,93 @@
+- generic [ref=f2e3]:
+  - link "Skip to workspace" [ref=f2e4] [cursor=pointer]:
+    - /url: "#workspace"
+  - banner [ref=f2e5]:
+    - button "Switchyard dispatch" [ref=f2e6] [cursor=pointer]:
+      - generic [ref=f2e9]: Switchyard
+    - generic [ref=f2e10]: Offline execution labPolicy. Stop. Record.
+    - generic [ref=f2e11]:
+      - generic [ref=f2e12]: Connected locally
+      - generic [ref=f2e14]: Offline fixture · No live systems
+    - button "Stop execution" [ref=f2e15] [cursor=pointer]
+  - navigation "Workspace" [ref=f2e18]:
+    - button "01 Dispatch" [ref=f2e19] [cursor=pointer]:
+      - generic [ref=f2e20]: "01"
+      - text: Dispatch
+    - button "02 Receipt ledger 0" [ref=f2e21] [cursor=pointer]:
+      - generic [ref=f2e22]: "02"
+      - text: Receipt ledger
+      - generic [ref=f2e23]: "0"
+    - button "03 Operating rules" [ref=f2e24] [cursor=pointer]:
+      - generic [ref=f2e25]: "03"
+      - text: Operating rules
+    - link "Source" [ref=f2e26] [cursor=pointer]:
+      - /url: https://github.com/fortunexbt/switchyard
+  - main [ref=f2e30]:
+    - generic [ref=f2e31]:
+      - generic [ref=f2e32]:
+        - paragraph [ref=f2e33]: INSPECTION DRILL / 2026.07.1
+        - heading "Orbital relay recovery." [level=1] [ref=f2e34]: Orbital relayrecovery.
+      - generic [ref=f2e35]:
+        - generic [ref=f2e36]:
+          - strong [ref=f2e37]: 17s
+          - generic [ref=f2e38]: HEARTBEAT JITTERRELAY 07 · CAPTURED
+        - paragraph [ref=f2e39]: A drifting relay. An overlapping maintenance window. Investigate the captured evidence inside a read-only boundary.
+        - generic [ref=f2e40]: SYNTHETIC CAPTURE · 21 JUL 2026
+    - region "Incident replay" [ref=f2e41]:
+      - generic [ref=f2e42]:
+        - paragraph [ref=f2e43]:
+          - generic [ref=f2e44]: "01"
+          - text: Dispatch
+        - heading "Replay it. Try stopping it." [level=2] [ref=f2e45]
+        - paragraph [ref=f2e46]: The replay is deliberately paced so you can interrupt it. A completed run releases evidence. A stopped run releases only a receipt.
+        - button "Replay incident" [ref=f2e47] [cursor=pointer]
+        - group [ref=f2e50]:
+          - generic "Receipt annotation +" [ref=f2e51] [cursor=pointer]:
+            - text: Receipt annotation
+            - generic [ref=f2e52]: +
+      - generic [ref=f2e53]:
+        - generic [ref=f2e54]:
+          - generic [ref=f2e55]: "02"
+          - text: Execution route
+          - strong [ref=f2e56]: Boundary open
+        - 'img "Route: instruction, policy gate, fixture replay, receipt. No request dispatched." [ref=f2e57]':
+          - generic [ref=f2e58]: STOP TOKEN
+          - generic [ref=f2e64]:
+            - generic [ref=f2e66]: "01"
+            - generic [ref=f2e67]: Instruction
+            - generic [ref=f2e68]: DECLARE
+          - generic [ref=f2e69]:
+            - generic [ref=f2e71]: "02"
+            - generic [ref=f2e72]: Policy gate
+            - generic [ref=f2e73]: CHECK
+          - generic [ref=f2e74]:
+            - generic [ref=f2e76]: "03"
+            - generic [ref=f2e77]: Fixture
+            - generic [ref=f2e78]: REPLAY
+          - generic [ref=f2e79]:
+            - generic [ref=f2e81]: "04"
+            - generic [ref=f2e82]: Receipt
+            - generic [ref=f2e83]: RECORD
+        - generic [ref=f2e84]:
+          - generic [ref=f2e85]: The gate checks the capability, executor, and stop token.
+          - code [ref=f2e86]: GEN 00
+        - group [ref=f2e87]:
+          - generic "Inspect policy checks +" [ref=f2e88] [cursor=pointer]:
+            - text: Inspect policy checks
+            - generic [ref=f2e89]: +
+    - status [ref=f2e90]:
+      - generic [ref=f2e91]: ↳
+      - text: Local control plane connected. Fixture replay is available.
+    - generic [ref=f2e92]:
+      - generic [ref=f2e93]:
+        - generic [ref=f2e94]: "03"
+        - heading "Recent receipts" [level=2] [ref=f2e95]
+      - button "Open ledger" [ref=f2e96] [cursor=pointer]
+    - generic [ref=f2e99]:
+      - heading "No receipts yet." [level=3] [ref=f2e100]
+      - paragraph [ref=f2e101]: Replay the incident to create the first record.
+    - generic [ref=f2e102]:
+      - generic [ref=f2e103]: SWITCHYARD
+      - paragraph [ref=f2e104]: Commands are temporary. The record is metadata.
+      - link "Source" [ref=f2e105] [cursor=pointer]:
+        - /url: https://github.com/fortunexbt/switchyard

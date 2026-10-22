@@ -154,17 +154,17 @@
       "file": "assets/motion/tools/barter.gif",
       "project": "barter",
       "repository": "https://github.com/fortunexbt/barter",
-      "sourceCommit": "a27aa84c532e67fc8d706b2a6ea4183e61c11fec",
+      "sourceCommit": "212af23c8297290d2bb7cfea7f95ee1874ac2eb4",
       "sourceUrl": "https://github.com/fortunexbt/barter/pull/13",
-      "method": "Production Pages build of the redesign-ui branch (PR #13) served locally. Deterministic 50fps capture with stepped page time: Run tape on the direct-exchange scenario plays all four journal events to Settled, then Reset returns to Listed so the loop is seamless.",
+      "method": "Production Pages build of the redesign-ui branch (PR #13) served locally. Deterministic 50fps capture with stepped page time: switch to the counter-offer scenario, Run tape plays all four journal events to Settled (the wheat leg is amended from 420 t to 387.4 t at step 2), then switching back to Direct exchange returns to the opening frame.",
       "boundary": "Synthetic protocol study, not real settlement/trading.",
       "reviewedOn": "2026-10-22",
       "width": 640,
       "height": 400,
-      "frames": 148,
-      "durationSeconds": 5.4,
-      "bytes": 481185,
-      "sha256": "b883818c64c8a70bbd418d4542a727af75222654595e9a99f01d1261f3705eac"
+      "frames": 164,
+      "durationSeconds": 6.0,
+      "bytes": 509920,
+      "sha256": "7d4f2bcc0cb649eaf7b844bf3af7de01d5f2730c83da732a1329c98b51fa7a8b"
     },
     {
       "file": "assets/motion/tools/ambient-relay.gif",
