@@ -1,6 +1,6 @@
 # Keeping the profile demos current
 
-The current refresh (8 September 2026) includes the local Odyssey and ckitty builds, the latest public Tablebeam banner, and refreshed public snapshots for BoundaryBench, Queueglass and Switchyard. The website recordings were also captured again from the live public pages.
+The website clips and the BoundaryBench and Barter demos were recaptured on 22 October 2026 at 50fps with the scripts in [capture/](./capture/). The other clips date from the 8 September 2026 refresh.
 
 The profile links to the repositories for current builds. These GIFs are snapshots of actual project demos, terminal output or public websites. They are not release or production-status claims.
 

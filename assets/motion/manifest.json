@@ -119,22 +119,6 @@
       "sha256": "45fa7a9c472a07c641168dddafd17c26c4e0638b47556cf423e06576353ceda1"
     },
     {
-      "file": "assets/motion/tools/switchyard.gif",
-      "project": "switchyard",
-      "repository": "https://github.com/fortunexbt/switchyard",
-      "sourceCommit": "463e4080029f74c2367ea106cecd52373b37c7d7",
-      "sourceUrl": "https://github.com/fortunexbt/switchyard/blob/463e4080029f74c2367ea106cecd52373b37c7d7/assets/switchyard-console.png",
-      "method": "Latest public source snapshot console, presented as a restrained motion plate focused on the current execution-boundary visual system.",
-      "boundary": "Offline fixture execution with body-free receipt. No network providers or real operations.",
-      "reviewedOn": "2026-09-08",
-      "width": 800,
-      "height": 450,
-      "frames": 20,
-      "durationSeconds": 2.66,
-      "bytes": 1516394,
-      "sha256": "a1b7b69820994aeae55f98333ea1bc673e78133182381526cb00182738b692cb"
-    },
-    {
       "file": "assets/motion/tools/queueglass.gif",
       "project": "queueglass",
       "repository": "https://github.com/fortunexbt/queueglass",
