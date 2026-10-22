@@ -12,7 +12,7 @@ Python and TypeScript day to day, C when it needs to be small. FastAPI, Next.js,
 
 <sub>Operator demo with illustrative data. [Documentation](https://docs.mutx.dev/) · [Upstream credits](https://github.com/mutx-dev/mutx-dev/blob/main/CREDITS.md)</sub>
 
-An operator deploys agents through MUTX, watches their runs, sets budgets and approval rules, and can stop any run. I wrote 913 of its commits, and the other contributors are bots. The current release is v1.4.0.
+An operator deploys agents through MUTX, watches their runs, sets budgets and approval rules, and can stop any run. Of the 737 commits on main, 575 are mine or my coding agents', and the rest come from maintenance and dependency bots. The current release is v1.4.0. Figures below were counted on main at 782f2a33 (22 October 2026).
 
 | Part | What it is |
 | --- | --- |
