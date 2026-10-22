@@ -17,4 +17,4 @@ Each clip holds on the homepage, scrolls down on a cubic ease, holds, and scroll
 
 Time is stepped, not recorded. Every frame advances the page by exactly 20ms (timers, `requestAnimationFrame`, CSS and Web Animations, video), so frame pacing doesn't depend on how fast the machine renders. GIFs play at 50fps, the fastest delay browsers honour (20ms). Identical consecutive frames are merged into one longer frame by the encoder, which happens during the holds and in pinned scroll sections.
 
-[captures.json](./captures.json) records the source URL, scroll path, frame counts, bytes and SHA-256 for each file. To refresh, recapture all six with the same settings so the grid stays consistent.
+[captures.json](./captures.json) records the source URL, scroll path, frame counts, bytes and SHA-256 for each file. To refresh, recapture all six with the commands in [../capture/README.md](../capture/README.md) so the grid stays consistent.

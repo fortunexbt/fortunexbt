@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:4319/boundary-bench/",
+  "viewport": "1280x800",
+  "duration": 5.6,
+  "settle": 2000,
+  "actions": [
+    { "t": 0.8, "click": "[data-run=\"naive-reference::budget-exhaustion\"]" },
+    { "t": 0.8, "mouse": [1278, 798] },
+    { "t": 2.0, "click": "[data-event]", "hasText": "#4" },
+    { "t": 2.0, "mouse": [1278, 798] },
+    { "t": 3.2, "click": "[data-candidate=\"guarded-reference\"]" },
+    { "t": 3.2, "mouse": [1278, 798] },
+    { "t": 4.4, "click": "[data-run=\"naive-reference::retrieval-injection\"]" },
+    { "t": 4.4, "mouse": [1278, 798] }
+  ]
+}

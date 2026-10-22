@@ -1,0 +1,12 @@
+{
+  "url": "http://localhost:4173/barter/",
+  "viewport": "1280x800",
+  "duration": 5.4,
+  "settle": 2000,
+  "actions": [
+    { "t": 0.8, "click": "button", "hasText": "Run tape" },
+    { "t": 0.8, "mouse": [1278, 798] },
+    { "t": 4.9, "click": "button", "hasText": "Reset" },
+    { "t": 4.9, "mouse": [1278, 798] }
+  ]
+}
