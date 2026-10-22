@@ -1,0 +1,14 @@
+{
+  "url": "http://localhost:4173/barter/",
+  "viewport": "1280x800",
+  "duration": 6.0,
+  "settle": 2000,
+  "actions": [
+    { "t": 0.6, "click": "button", "hasText": "Counter-offer" },
+    { "t": 0.6, "mouse": [1278, 798] },
+    { "t": 1.2, "click": "button", "hasText": "Run tape" },
+    { "t": 1.2, "mouse": [1278, 798] },
+    { "t": 5.4, "click": "button", "hasText": "Direct exchange" },
+    { "t": 5.4, "mouse": [1278, 798] }
+  ]
+}

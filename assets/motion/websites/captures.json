@@ -1,98 +1,218 @@
 {
-  "schemaVersion": 1,
-  "createdAt": "2026-09-08T13:27:36.039Z",
+  "schemaVersion": 2,
   "purpose": "Real public-site motion previews for the Fortune GitHub profile.",
-  "scope": "Only assets/motion/websites was written; public sites and project checkouts were observed without changes.",
+  "method": "Deterministic 50fps capture. Playwright clock controls timers, requestAnimationFrame and performance; CSS and Web Animations on the document timeline are paused and advanced 20ms per frame; videos are stepped the same way. Each frame scrolls to its position on an eased path, waits for in-view images to decode, then takes a lossless screenshot. Scroll- and view-timeline animations follow the scroll position natively. Page content, styles and code are not modified; the only interaction is dismissing a cookie or language prompt where named.",
   "files": [
     {
-      "file": "bottega-priori.gif",
-      "sourceUrl": "https://www.bottegapriori.com/",
-      "resolvedUrl": "https://www.bottegapriori.com/",
-      "sourceTitle": "Bottega Dei Priori | Trattoria a Perugia",
-      "capturedAt": "2026-09-08T13:19:11.016Z",
-      "sourceState": "Current public website observed on capture date; no new release or deployment is implied.",
-      "sharedProjectCredit": "Shared work with Walberth Soares through Civico Due (https://civicodue.eu/).",
+      "file": "civico-due.gif",
+      "sourceUrl": "https://civicodue.eu/",
+      "capturedAt": "2026-10-22",
       "capture": {
-        "browser": "Google Chrome 152.0.7977.76",
+        "browser": "Chromium 156.0.8078.4 (Playwright 1.64.0), ANGLE Metal on Apple M4",
         "viewport": {
-          "width": 1200,
+          "width": 1280,
           "height": 800
         },
         "deviceScaleFactor": 1,
-        "method": "Lossless screenshots from an independent Playwright browser during real wheel input; no DOM, content, or style changes.",
-        "action": "Homepage food hero, then wheel-scroll 800 CSS pixels into La sala e la tavola and the restaurant photo grid.",
-        "sourceFrameCount": 80,
-        "sourceCaptureWallMs": 25064
+        "fps": 50,
+        "sourceFrames": 265,
+        "scroll": {
+          "distancePx": 2300,
+          "holdTopS": 0.5,
+          "downS": 3,
+          "holdBottomS": 0.4,
+          "upS": 1.4,
+          "easing": "cubic in-out"
+        },
+        "framesOffScrollTarget": 0,
+        "dismissed": null
       },
       "export": {
-        "width": 600,
-        "height": 400,
-        "durationSeconds": 5.84,
-        "frames": 23,
-        "bytes": 1955423,
-        "sha256": "50792a7657568d42f950ebd8e93a28cd64d25796888cfc4dc250a29fd00dfba8",
-        "loop": "infinite",
-        "cadence": "Approximately 1.6-second opening hold, 20 observed scroll frames over 2.6 seconds (about 8 fps), and 1.6-second closing hold; GIF timestamp quantization yields 5.84 seconds.",
-        "transformations": "Scale to 600 x 400; normalize frame timing for GIF playback; palette quantization and GIF delta compression only. No title cards, transitions, overlays, reconstructed UI, or added visual effects.",
-        "palette": {
-          "colors": 160,
-          "dither": "bayer",
-          "bayerScale": 4
-        }
-      },
-      "refresh": {
+        "width": 480,
+        "height": 300,
+        "images": 150,
+        "durationSeconds": 5.3,
+        "motionFrameDelayMs": 20,
+        "bytes": 627438,
+        "sha256": "df0a3a12c1e4c9f3135ae89fc707624d33bccb054013ac284af808566d2b0bae",
+        "encoder": "gifski 1.34.0 --fps 50 --width 480 --quality 75 --motion-quality 60 --lossy-quality 60"
+      }
+    },
+    {
+      "file": "bottega-priori.gif",
+      "sourceUrl": "https://www.bottegapriori.com/",
+      "capturedAt": "2026-10-22",
+      "capture": {
+        "browser": "Chromium 156.0.8078.4 (Playwright 1.64.0), ANGLE Metal on Apple M4",
         "viewport": {
-          "width": 1200,
+          "width": 1280,
           "height": 800
         },
-        "loadWait": "Wait for network idle, then at least 4 seconds for entrance/loading animation; confirm fonts and hero imagery are visible.",
-        "actions": "Use only the stated homepage wheel scroll. Do not activate booking, contact, payment, account, or outbound messaging actions.",
-        "review": "Inspect decoded opening, scroll, and closing frames; confirm the actual public content and shared credit; verify dimensions, duration, frame count, bytes, and hash after encoding."
-      }
+        "deviceScaleFactor": 1,
+        "fps": 50,
+        "sourceFrames": 220,
+        "scroll": {
+          "distancePx": 1300,
+          "holdTopS": 0.5,
+          "downS": 2.4,
+          "holdBottomS": 0.4,
+          "upS": 1.1,
+          "easing": "cubic in-out"
+        },
+        "framesOffScrollTarget": 0,
+        "dismissed": null
+      },
+      "export": {
+        "width": 480,
+        "height": 300,
+        "images": 169,
+        "durationSeconds": 4.4,
+        "motionFrameDelayMs": 20,
+        "bytes": 5240396,
+        "sha256": "492dbc4ed5ce05cf5f2b50cdf6b0b91ef53e6b5a68aa3530139a7d03d67c161c",
+        "encoder": "gifski 1.34.0 --fps 50 --width 480 --quality 75 --motion-quality 60 --lossy-quality 60"
+      },
+      "sharedProjectCredit": "Shared work with Walberth Soares through Civico Due (https://civicodue.eu/)."
     },
     {
       "file": "mud-ceramica.gif",
       "sourceUrl": "https://mudescoladeceramica.com/pt",
-      "resolvedUrl": "https://mudescoladeceramica.com/pt",
-      "sourceTitle": "MUD Escola de Cerâmica | Escola de cerâmica no Leblon, Rio de Janeiro",
-      "capturedAt": "2026-09-08T13:19:43.076Z",
-      "sourceState": "Current public website observed on capture date; no new release or deployment is implied.",
-      "sharedProjectCredit": "Shared work with Walberth Soares through Civico Due (https://civicodue.eu/).",
+      "capturedAt": "2026-10-22",
       "capture": {
-        "browser": "Google Chrome 152.0.7977.76",
+        "browser": "Chromium 156.0.8078.4 (Playwright 1.64.0), ANGLE Metal on Apple M4",
         "viewport": {
-          "width": 1200,
+          "width": 1280,
           "height": 800
         },
         "deviceScaleFactor": 1,
-        "method": "Lossless screenshots from an independent Playwright browser during real wheel input; no DOM, content, or style changes.",
-        "action": "Portuguese homepage ceramic-work hero, then wheel-scroll 700 CSS pixels into the Aulas class overview.",
-        "sourceFrameCount": 80,
-        "sourceCaptureWallMs": 15507
+        "fps": 50,
+        "sourceFrames": 220,
+        "scroll": {
+          "distancePx": 1250,
+          "holdTopS": 0.5,
+          "downS": 2.4,
+          "holdBottomS": 0.4,
+          "upS": 1.1,
+          "easing": "cubic in-out"
+        },
+        "framesOffScrollTarget": 0,
+        "dismissed": null
       },
       "export": {
-        "width": 600,
-        "height": 400,
-        "durationSeconds": 5.84,
-        "frames": 23,
-        "bytes": 1638985,
-        "sha256": "02bc3a370a6c01d79cc264f4eb18192186fc1f85526b2114ad91e68da7b669c4",
-        "loop": "infinite",
-        "cadence": "Approximately 1.6-second opening hold, 20 observed scroll frames over 2.6 seconds (about 8 fps), and 1.6-second closing hold; GIF timestamp quantization yields 5.84 seconds.",
-        "transformations": "Scale to 600 x 400; normalize frame timing for GIF playback; palette quantization and GIF delta compression only. No title cards, transitions, overlays, reconstructed UI, or added visual effects.",
-        "palette": {
-          "colors": 128,
-          "dither": "none"
-        }
+        "width": 480,
+        "height": 300,
+        "images": 167,
+        "durationSeconds": 4.4,
+        "motionFrameDelayMs": 20,
+        "bytes": 5618735,
+        "sha256": "d9dff0f2d6a4caea3720984b342c2ea9eb41b1729e96b190a29072bd38c240dd",
+        "encoder": "gifski 1.34.0 --fps 50 --width 480 --quality 75 --motion-quality 60 --lossy-quality 60"
       },
-      "refresh": {
+      "sharedProjectCredit": "Shared work with Walberth Soares through Civico Due (https://civicodue.eu/)."
+    },
+    {
+      "file": "antico-frantoio-nunzi.gif",
+      "sourceUrl": "https://antico-frantoio-nunzi.vercel.app/",
+      "capturedAt": "2026-10-22",
+      "capture": {
+        "browser": "Chromium 156.0.8078.4 (Playwright 1.64.0), ANGLE Metal on Apple M4",
         "viewport": {
-          "width": 1200,
+          "width": 1280,
           "height": 800
         },
-        "loadWait": "Wait for network idle, then at least 4 seconds for entrance/loading animation; confirm fonts and hero imagery are visible.",
-        "actions": "Use only the stated homepage wheel scroll. Do not activate booking, contact, payment, account, or outbound messaging actions.",
-        "review": "Inspect decoded opening, scroll, and closing frames; confirm the actual public content and shared credit; verify dimensions, duration, frame count, bytes, and hash after encoding."
+        "deviceScaleFactor": 1,
+        "fps": 50,
+        "sourceFrames": 220,
+        "scroll": {
+          "distancePx": 1250,
+          "holdTopS": 0.5,
+          "downS": 2.4,
+          "holdBottomS": 0.4,
+          "upS": 1.1,
+          "easing": "cubic in-out"
+        },
+        "framesOffScrollTarget": 0,
+        "dismissed": null
+      },
+      "export": {
+        "width": 480,
+        "height": 300,
+        "images": 167,
+        "durationSeconds": 4.4,
+        "motionFrameDelayMs": 20,
+        "bytes": 3285798,
+        "sha256": "f48f7f9d4dab3e2e885cbed6f8fc4b5d2acac3b70dc0ecf9f1a2152316927c24",
+        "encoder": "gifski 1.34.0 --fps 50 --width 480 --quality 75 --motion-quality 60 --lossy-quality 60"
+      }
+    },
+    {
+      "file": "victoria-inaudi.gif",
+      "sourceUrl": "https://www.victoriainaudi.com/",
+      "capturedAt": "2026-10-22",
+      "capture": {
+        "browser": "Chromium 156.0.8078.4 (Playwright 1.64.0), ANGLE Metal on Apple M4",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "deviceScaleFactor": 1,
+        "fps": 50,
+        "sourceFrames": 220,
+        "scroll": {
+          "distancePx": 1250,
+          "holdTopS": 0.5,
+          "downS": 2.4,
+          "holdBottomS": 0.4,
+          "upS": 1.1,
+          "easing": "cubic in-out"
+        },
+        "framesOffScrollTarget": 0,
+        "dismissed": "Seguir en español"
+      },
+      "export": {
+        "width": 480,
+        "height": 300,
+        "images": 166,
+        "durationSeconds": 4.4,
+        "motionFrameDelayMs": 20,
+        "bytes": 2244506,
+        "sha256": "4eb35069f2eea6239d32f52fdbe00c5092a4429d0dc855a270b184fc661eb6a8",
+        "encoder": "gifski 1.34.0 --fps 50 --width 480 --quality 75 --motion-quality 60 --lossy-quality 60"
+      }
+    },
+    {
+      "file": "elisa-panzavolta.gif",
+      "sourceUrl": "https://elisapanzavolta.com/",
+      "capturedAt": "2026-10-22",
+      "capture": {
+        "browser": "Chromium 156.0.8078.4 (Playwright 1.64.0), ANGLE Metal on Apple M4",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "deviceScaleFactor": 1,
+        "fps": 50,
+        "sourceFrames": 220,
+        "scroll": {
+          "distancePx": 1300,
+          "holdTopS": 0.5,
+          "downS": 2.4,
+          "holdBottomS": 0.4,
+          "upS": 1.1,
+          "easing": "cubic in-out"
+        },
+        "framesOffScrollTarget": 0,
+        "dismissed": "Rifiuta"
+      },
+      "export": {
+        "width": 480,
+        "height": 300,
+        "images": 187,
+        "durationSeconds": 4.4,
+        "motionFrameDelayMs": 20,
+        "bytes": 2166426,
+        "sha256": "86bfc7a4ad9432502ea927a7703eceacdd14f7871818d8a6f5cd409b69986bd5",
+        "encoder": "gifski 1.34.0 --fps 50 --width 480 --quality 75 --motion-quality 60 --lossy-quality 60"
       }
     }
   ]
