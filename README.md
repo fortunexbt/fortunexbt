@@ -1,6 +1,6 @@
 # fortunexbt
 
-I build software you can run today: an agent control plane, a Mac menu bar app, local-first data tools, and games for the browser and the terminal.
+I build the software I (and maybe, you) need: an agent control plane, a Mac menu bar app, local-first data & LLM tooling, and games for the browser and the terminal.
 
 <a href="https://github.com/mutx-dev/mutx-dev"><img src="./assets/mutx.gif" width="100%" alt="MUTX dashboard: an operator pauses an agent session and resumes it" /></a>
 
