@@ -2,7 +2,7 @@
 
 I build infrastructure for running AI agents in production, and I measure whether agent safety controls hold up under real runs.
 
-Google merged my security fix to its Agent Development Kit for JavaScript, which makes implicit Google API authentication require HTTPS ([google/adk-js#952](https://github.com/google/adk-js/pull/952)).
+Google ADK @ ([google/adk-js#952](https://github.com/google/adk-js/pull/952)).
 
 ## MUTX
 
