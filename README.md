@@ -1,4 +1,4 @@
-# Mario (fortunexbt)
+# fortunexbt
 
 I build infrastructure for running AI agents in production, and I measure whether agent safety controls hold up under real runs.
 
@@ -22,7 +22,5 @@ Methods and limits for each are on [fortunexbt.com](https://fortunexbt.com).
 ## Everything else
 
 Experiments, tools and games live in [fortunexbt/lab](https://github.com/fortunexbt/lab).
-
-I also build websites for local businesses through my studio, [Civico Due](https://civicodue.eu/).
 
 [fortunexbt.com](https://fortunexbt.com) · [X](https://x.com/fortunexbt) · [Telegram](https://t.me/fortunexbt)
