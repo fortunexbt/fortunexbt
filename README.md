@@ -155,4 +155,3 @@ The data, the limits and the command that reproduces each one are on [fortunexbt
 
 **fortunexbt**<br>
 [fortunexbt.com](https://fortunexbt.com) · [X](https://x.com/fortunexbt) · [Telegram](https://t.me/fortunexbt) · [Exit Node](https://fortunexbt.substack.com/)<br>
-<sub>The sunglasses are Pit Viper Originals. Their logo appears with permission. Titles are set in Archivo.</sub>
