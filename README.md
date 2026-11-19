@@ -30,7 +30,7 @@ Does the agent stop when told, stay under budget and wait for approval? These te
 <td width="33%" valign="top">
 <a href="https://fortunexbt.github.io/boundary-bench/"><img src="./assets/boundary-bench.gif" alt="BoundaryBench report replaying agent runs against budget, stop and approval controls" /></a>
 <br><b><a href="https://github.com/fortunexbt/boundary-bench">BoundaryBench</a></b>
-<br>Crash tests for agent controls. Paired worlds, hard stops, budgets and approvals, and the server keeps the score.
+<br>Crash tests for agent controls. Every tool call is a block, the boundary is a wall, and anything past it shows red.
 <br><a href="https://fortunexbt.github.io/boundary-bench/">Report</a> · <a href="https://github.com/fortunexbt/boundary-bench">Code</a>
 </td>
 <td width="33%" valign="top">
@@ -90,13 +90,13 @@ Seeded simulations and paired measurements. The same link or the same command re
 <td width="33%" valign="top">
 <a href="https://fortunexbt.github.io/barter/"><img src="./assets/barter.gif" alt="Barter Protocol Lab stepping a commodity exchange through its hash-chained journal" /></a>
 <br><b><a href="https://github.com/fortunexbt/barter">Barter</a></b>
-<br>A commodity barter state machine with a hash-chained journal, priced from the World Bank Pink Sheet.
+<br>A commodity barter state machine on a balance scale, with a hash-chained journal, priced from the World Bank Pink Sheet.
 <br><a href="https://fortunexbt.github.io/barter/">Try it</a> · <a href="https://github.com/fortunexbt/barter">Code</a>
 </td>
 <td width="33%" valign="top">
 <a href="https://fortunexbt.github.io/minecraft-apple-silicon-framework/"><img src="./assets/minecraft.gif" alt="Minecraft shader setups for Apple silicon with screenshots and measured results" /></a>
 <br><b><a href="https://github.com/fortunexbt/minecraft-apple-silicon-framework">Minecraft on Apple silicon</a></b>
-<br>Shader setups for M-series Macs, each measured over the same scripted flight, with a CLI that tries one and rolls it back.
+<br>Shader setups for M-series Macs, flown over one scripted route and compared frame by frame, with a CLI that tries one and rolls it back.
 <br><a href="https://fortunexbt.github.io/minecraft-apple-silicon-framework/">Browse</a> · <a href="https://github.com/fortunexbt/minecraft-apple-silicon-framework">Code</a>
 </td>
 </tr>
