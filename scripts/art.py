@@ -23,6 +23,7 @@ TITLES = {
     "agent-controls": "Agent controls",
     "local-first-tools": "Local-first tools",
     "labs-and-benches": "Labs and benches",
+    "data-up-close": "Data up close",
     "games": "Games",
     "measured": "Things I measured",
     "upstream": "Upstream and smaller",

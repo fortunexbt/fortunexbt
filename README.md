@@ -102,6 +102,33 @@ Seeded simulations and paired measurements. The same link or the same command re
 </tr>
 </table>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./art/data-up-close-dark.svg"><img src="./art/data-up-close-light.svg" alt="Data up close" width="100%"></picture>
+
+A writer's rhythm, a funding round, one harrier's year. Each takes real data and makes one thing about it plain.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="https://ghostwriter-virid-xi.vercel.app/"><img src="./assets/ghostwriter.gif" alt="Ghostwriter charting a writer's sentence rhythm and punctuation beside the manuscript" /></a>
+<br><b><a href="https://ghostwriter-virid-xi.vercel.app/">Ghostwriter</a></b>
+<br>Paste a writer's posts and see how they write, measured sentence by sentence.
+<br><a href="https://ghostwriter-virid-xi.vercel.app/">Try it</a>
+</td>
+<td width="33%" valign="top">
+<a href="https://crypto-hiring-radar.vercel.app/"><img src="./assets/hiring-radar.gif" alt="Hiring Radar showing funding rounds as radar blips with predicted hires and reasoning" /></a>
+<br><b><a href="https://crypto-hiring-radar.vercel.app/">Hiring Radar</a></b>
+<br>Crypto funding rounds, and the roles each company is likely to hire next, with a reason for every call.
+<br><a href="https://crypto-hiring-radar.vercel.app/">Try it</a>
+</td>
+<td width="33%" valign="top">
+<a href="https://bird-migration-chi.vercel.app/"><img src="./assets/fieldguide.gif" alt="Fieldguide replaying a tagged marsh harrier's GPS track from Belgium to Mauritania" /></a>
+<br><b><a href="https://bird-migration-chi.vercel.app/">Fieldguide</a></b>
+<br>Follow one tagged bird from Flanders. Real GPS tracks, replayed day by day.
+<br><a href="https://bird-migration-chi.vercel.app/">Try it</a>
+</td>
+</tr>
+</table>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="./art/games-dark.svg"><img src="./art/games-light.svg" alt="Games" width="100%"></picture>
 
 <table>
@@ -115,7 +142,7 @@ Seeded simulations and paired measurements. The same link or the same command re
 <td width="25%" valign="top">
 <a href="https://fortunexbt.github.io/loop-courier/"><img src="./assets/loop-courier.gif" alt="Loop Courier gameplay: drawing a delivery route through a city" /></a>
 <br><b><a href="https://github.com/fortunexbt/loop-courier">Loop Courier</a></b>
-<br>Draw one route through a seeded city and make every deadline.
+<br>Draw one route through a seeded night city and make every deadline.
 <br><a href="https://fortunexbt.github.io/loop-courier/">Play</a> · <a href="https://github.com/fortunexbt/loop-courier">Code</a>
 </td>
 <td width="25%" valign="top">
