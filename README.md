@@ -50,27 +50,33 @@ Does the agent stop when told, stay under budget and wait for approval? These te
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./art/local-first-tools-dark.svg"><img src="./art/local-first-tools-light.svg" alt="Local-first tools" width="100%"></picture>
 
-They run on your machine, on your files, and show the rows or the public record behind every answer.
+They run on your machine, on your files, and show the rows, the drawing or the public record behind every answer.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 <a href="https://tablebeam-eight.vercel.app/"><img src="./assets/tablebeam.gif" alt="Tablebeam answering a spreadsheet question with an exact figure and the rows it used" /></a>
 <br><b><a href="https://github.com/fortunexbt/tablebeam">Tablebeam</a></b>
 <br>Ask a spreadsheet a question and get the exact answer with the rows it used. Exact decimals, no model required.
 <br><a href="https://tablebeam-eight.vercel.app/">Try it</a> · <a href="https://github.com/fortunexbt/tablebeam">Code</a>
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 <a href="https://fieldwork-plugins.vercel.app/"><img src="./assets/fieldwork.gif" alt="Fieldwork catalog running one of its eight tools in the browser" /></a>
 <br><b><a href="https://github.com/fortunexbt/fieldwork-plugins">Fieldwork plugins</a></b>
 <br>Eight small plugins for ChatGPT and Codex. The catalog runs the same scripts in your browser on real public data.
 <br><a href="https://fieldwork-plugins.vercel.app/">Try it</a> · <a href="https://github.com/fortunexbt/fieldwork-plugins">Code</a>
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 <a href="https://github.com/fortunexbt/world-watch"><img src="./assets/world-watch.gif" alt="World Watch map of live earthquakes, alerts and fires, each linked to its public source" /></a>
 <br><b><a href="https://github.com/fortunexbt/world-watch">World Watch</a></b>
 <br>Earthquakes, alerts, storms and fires on one live map, every marker linked to its public record.
 <br><a href="https://github.com/fortunexbt/world-watch">Code</a>
+</td>
+<td width="25%" valign="top">
+<a href="https://render-studio-delta.vercel.app/"><img src="./assets/render-studio.gif" alt="Render Studio selecting an area of an archive plan and producing a plan view of it" /></a>
+<br><b><a href="https://render-studio-delta.vercel.app/">Render Studio</a></b>
+<br>An Italian workspace for architects. Mark an area of a drawing and develop views from it.
+<br><a href="https://render-studio-delta.vercel.app/">Try it</a>
 </td>
 </tr>
 </table>
